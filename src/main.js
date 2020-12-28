@@ -1,7 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import './assets/home.scss'
+
+import './assets/animate.min.css'
+import './assets/index.scss'
+import './plugins/element.js'
+
+
 
 Vue.config.productionTip = false
 

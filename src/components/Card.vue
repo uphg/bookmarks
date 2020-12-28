@@ -32,12 +32,12 @@ export default {
     },
     type: {
       type: String,
-      default: "horizontal",
+      default: "vertical",
     },
   },
   computed: {
     className() {
-      return this.default === "vertical" ? "card-vertical" : "card-horizontal";
+      return this.type === "vertical" ? "card-vertical" : "card-horizontal";
     },
   },
 };
@@ -45,54 +45,72 @@ export default {
 <style lang="scss" scoped>
 .card {
   display: block;
-  width: calc(33.333333% - 6px);
   padding: 10px;
-  margin-right: 9px;
   margin-bottom: 9px;
   border-radius: 10px;
   border: 1px solid transparent;
   transition: border 0.2s ease, box-shadow 0.2s ease;
   &:hover {
-    border-color: #e0e0e0;
+    border-color: #edf0f3;
     box-shadow: 0 2px 10px rgba(209, 217, 231, 0.3);
+    .card-description {
+      color: #002059;
+    }
   }
+}
+.card-image-block {
+  width: 288px;
+  height: 94px;
+  border-radius: 10px;
+  background-color: #eee;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-image-item {
+  max-height: 48px;
+}
+.card-text-block {
+  padding: 12px;
+}
+.card-title {
+  font-size: 24px;
+  line-height: 1;
+  color: #002059;
+}
+.card-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #667899;
+  transition: color 0.2s ease;
+}
+.card-horizontal {
+  width: calc(33.333333% - 6px);
+  margin-right: 9px;
   &:last-child {
     width: calc(33.333334% - 6px);
   }
   &:nth-child(3n) {
     margin-right: 0;
   }
-}
-.card-horizontal {
-  .card-image-block {
-    width: 288px;
-    height: 94px;
-    border-radius: 10px;
-    background-color: #eee;
-    overflow: hidden;
-  }
-  .card-image-item {
-    width: 100%;
-    height: 100%;
-  }
-  .card-text-block {
-    padding: 12px;
-  }
   .card-title {
-    font-size: 24px;
-    line-height: 1;
-    color: #002059;
     margin-bottom: 10px;
     padding-top: 12px;
   }
-  .card-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    color: #667899;
-  }
 }
 .card-vertical {
-
+  width: 100%;
+  .card-content {
+    display: flex;
+  }
+  .card-text-block {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 36px;
+  }
 }
 </style>
