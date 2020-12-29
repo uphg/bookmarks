@@ -1,5 +1,5 @@
 <template>
-  <a class="card" :class="typeClass" :href="href" target="_blank">
+  <a class="card box-stagger" :class="typeClass" :href="href" target="_blank">
     <div class="card-content">
       <div class="card-image-block" :style="{ backgroundColor: color }">
         <el-image

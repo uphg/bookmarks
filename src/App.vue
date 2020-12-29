@@ -1,7 +1,10 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{ dark: themeType === 'dark' }">
     <el-scrollbar wrap-class="scrollbar-wrapper">
-      <Navbar />
+      <div class="box-stagger" style="display: none; transition: ease 0s"></div>
+      <div class="box-stagger">
+        <Navbar />
+      </div>
       <Main />
       <Setting />
     </el-scrollbar>
@@ -17,11 +20,33 @@ export default {
   name: 'App',
   components: { Navbar, Main, Setting },
   data() {
-    return { eventBus: new Vue() }
+    return {
+      eventBus: new Vue(),
+      themeType: 'light'
+    }
   },
   provide() {
     return {
-      eventBus: this.eventBus, 
+      eventBus: this.eventBus,
+    }
+  },
+  mounted() {
+    this.initData()
+  },
+  methods: {
+    initData() {
+      this.themeType = this.getLocal('bookmark-theme-key')
+      this.loadingTransition()
+      this.eventBus.$on('data-setting-card-theme', (type) => {
+        this.themeType = type
+      })
+    },
+    loadingTransition() {
+      const elements = document.querySelectorAll('.box-stagger')
+      Velocity(elements, 'transition.slideLeftBigIn', { stagger: 100 })
+    },
+    getLocal(name) {
+      return localStorage.getItem(name)
     }
   }
 }
@@ -41,6 +66,4 @@ export default {
 .scrollbar-wrapper {
   overflow-x: hidden !important;
 }
-
-
 </style>

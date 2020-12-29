@@ -1,7 +1,8 @@
-
 /* === 用于存放监听事件 === */
+
 export default {
   mounted() {
+    this.cardType = localStorage.getItem('bookmark-type-key') || 'horizontal'
     this.listenEvents()
   },
   methods: {

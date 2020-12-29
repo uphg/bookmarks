@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import Velocity from 'velocity-animate'
+import 'velocity-animate/velocity.ui.js'
 
 import './assets/animate.min.css'
 import './assets/index.scss'

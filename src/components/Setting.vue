@@ -5,6 +5,7 @@
     :visible.sync="visible"
     :with-header="false"
     @close="close"
+    :modal="true"
   >
     <div class="setting">
       <div class="setting-title">
@@ -18,26 +19,39 @@
         ></i>
       </div>
       <div class="setting-content">
-        <div class="setting-item-title">{{'设置排列方式'}}</div>
-        <el-switch
-          v-model="cardType"
-          active-text="竖排"
-          inactive-text="横排"
-          @change="changeSwitch"
-        >
-        </el-switch>
+        <setting-item title="切换排列方式">
+          <el-switch
+            v-model="type"
+            active-text="竖排"
+            inactive-text="横排"
+            @change="changeTypeSwitch"
+          >
+          </el-switch>
+        </setting-item>
+        <setting-item title="切换皮肤">
+          <el-switch
+            v-model="theme"
+            active-text="睡觉"
+            inactive-text="起床"
+            @change="changeThemeSwitch"
+          >
+          </el-switch>
+        </setting-item>
       </div>
     </div>
   </el-drawer>
 </template>
 <script>
+import SettingItem from './SettingItem.vue';
 export default {
+  components: { SettingItem },
   name: 'Setting',
   inject: ['eventBus'],
   data() {
     return {
       visible: false,
-      cardType: false
+      type: false,
+      theme: false,
     }
   },
   mounted() {
@@ -46,21 +60,40 @@ export default {
   methods: {
     initStatus() {
       this.eventBus.$on('data-setting-status', (status) => { this.visible = status })
+      this.type = localStorage.getItem('bookmark-type-key') === 'vertical' ? true : false
+      this.theme = localStorage.getItem('bookmark-theme-key') === 'dark' ? true : false
     },
     /* 关闭时通知其他页面刷新状态 */
     close() {
-      this.eventBus.$emit('data-setting-close', false)
+      this.addEvent('data-setting-close', false)
     },
-    changeSwitch() {
-      if (this.cardType) {
-        this.setCardType('vertical')
+    changeTypeSwitch() {
+      if (this.type) {
+        this.setType('vertical')
       } else {
-        this.setCardType('horizontal')
+        this.setType('horizontal')
       }
     },
+    changeThemeSwitch() {
+      if(this.theme) {
+        this.setTheme('dark')
+      } else {
+        this.setTheme('light')
+      }
+    },
+    /* 修改主题 */
+    setTheme(type) {
+      this.addEvent('data-setting-card-theme', type)
+      localStorage.setItem('bookmark-theme-key', type)
+    },
     /* 修改展示方式（列 / 行） */
-    setCardType(type) {
-      this.eventBus.$emit('data-setting-card-type', type)
+    setType(type) {
+      this.addEvent('data-setting-card-type', type)
+      localStorage.setItem('bookmark-type-key', type)
+    },
+    /* 添加事件 */
+    addEvent(name, type) {
+      this.eventBus.$emit(name, type)
     }
   }
 };
