@@ -1,24 +1,5 @@
 # bookmarks
 
-## Project setup
-```
-yarn install
-```
+自制书签页，支持 [横排 | 竖排]。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+项目需要配置 url 路径，打开 `.env` 设置环境变量 `VUE_APP_BEFORE_URL` 的值。

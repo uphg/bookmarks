@@ -1,3 +1,4 @@
+# 第一次关联两个仓库
 git add .
 git commit -m "first commit"
 git remote add github git@github.com:uphg/bookmarks.git

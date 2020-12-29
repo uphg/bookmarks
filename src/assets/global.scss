@@ -1,23 +1,6 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue,
     sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-img {
-  vertical-align: middle;
 }
 
 .default-content {
@@ -59,49 +42,3 @@ img {
   font-size: $title-icon-size;
 }
 
-/* ===「设置」的样式 === */
-
-.setting-title {
-  font-size: 18px;
-  padding: 26px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  i {
-    cursor: pointer;
-    font-size: $title-icon-size;
-  }
-}
-.setting-title-container {
-  display: flex;
-  align-items: center;
-}
-.setting-title-text {
-  font-size: $title-font-size;
-}
-.el-icon-setting {
-  margin-top: 2px;
-  margin-right: 5px;
-  transition: transform 0.8s;
-  &.active {
-    color: #007dff;
-    transform: rotate(0.5turn);
-  }
-}
-.setting-content {
-  padding: 26px;
-  background-color: #f8f9fe;
-}
-.setting-item-title {
-  font-weight: 600;
-  color: #555466;
-  padding-bottom: 16px;
-}
-
-/* ===「设置」end === */
-
-/* 消除 :focus */
-.el-drawer__container:focus,
-.el-drawer.rtl:focus {
-  outline: none;
-}

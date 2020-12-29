@@ -32,6 +32,7 @@
 </template>
 <script>
 export default {
+  name: 'Setting',
   inject: ['eventBus'],
   data() {
     return {
@@ -44,8 +45,9 @@ export default {
   },
   methods: {
     initStatus() {
-      this.eventBus.$on('data-setting', (status) => { this.visible = status })
+      this.eventBus.$on('data-setting-status', (status) => { this.visible = status })
     },
+    /* 关闭时通知其他页面刷新状态 */
     close() {
       this.eventBus.$emit('data-setting-close', false)
     },

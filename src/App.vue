@@ -2,18 +2,7 @@
   <div id="app">
     <el-scrollbar wrap-class="scrollbar-wrapper">
       <Navbar />
-      <transition name="fade-transform" mode="out-in">
-        <main class="default-content version-heart" :key="contentKey">
-          <Card
-            v-for="(value, key) in cardList[cardIndex]['list']"
-            :key="key"
-            :title="value.title"
-            :description="value.description"
-            :img="value.img"
-            :type="cardType"
-          />
-        </main>
-      </transition>
+      <Main />
       <Setting />
     </el-scrollbar>
   </div>
@@ -22,44 +11,18 @@
 <script>
 import Vue from 'vue'
 import Navbar from './components/Navbar'
+import Main from './components/Main'
 import Setting from './components/Setting'
-import Card from './components/Card'
-import bookMarks from './api/bookmarks'
-
 export default {
   name: 'App',
-  components: {
-    Navbar,
-    Setting,
-    Card,
-  },
+  components: { Navbar, Main, Setting },
   data() {
-    return {
-      eventBus: new Vue(),
-      cardType: 'horizontal',
-      cardIndex: 0,
-      cardList: bookMarks,
-    }
+    return { eventBus: new Vue() }
   },
   provide() {
     return {
-      eventBus: this.eventBus,
+      eventBus: this.eventBus, 
     }
-  },
-  computed:{
-    contentKey() {
-      return this.cardIndex + this.cardType
-    }
-  },
-  mounted() {
-    this.eventBus.$on('data-setting-card-type', (type) => {
-      this.cardType = type
-    })
-    this.eventBus.$on('data-card-index', (index) => {
-      console.log('列表内容改变了')
-      console.log(index)
-      this.cardIndex = index
-    })
   }
 }
 </script>
@@ -79,19 +42,5 @@ export default {
   overflow-x: hidden !important;
 }
 
-/* fade-transform */
-.fade-transform-leave-active,
-.fade-transform-enter-active {
-  transition: all .5s;
-}
 
-.fade-transform-enter {
-  opacity: 0;
-  transform: translateX(-30px);
-}
-
-.fade-transform-leave-to {
-  opacity: 0;
-  transform: translateX(30px);
-}
 </style>

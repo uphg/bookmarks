@@ -1,0 +1,21 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* 消除 Element 的 :focus */
+.el-drawer__container:focus,
+.el-drawer.rtl:focus {
+  outline: none;
+}

@@ -35,15 +35,9 @@ import bookMarks from '../api/bookmarks'
 export default {
   inject: ['eventBus'],
   data() {
-    let index = 0
-    let createItem = (name) => {
-      const id = index
-      index += 1
-      return { id: index, name }
-    }
     return {
       settingStatus: false,
-      title: '黄金糕',
+      title: bookMarks[0].title,
       titleList: bookMarks
     }
   },
@@ -57,14 +51,12 @@ export default {
       })
     },
     openSetting() {
-      this.eventBus.$emit('data-setting', true)
+      this.eventBus.$emit('data-setting-status', true)
       this.settingStatus = true
     },
     clickDropdown(value) {
-      this.title = value.title
-      console.log('# value')
-      console.log(value)
-      this.eventBus.$emit('data-card-index', value.id)
+      this.title = value.title || '-'
+      this.eventBus.$emit('data-card-index', value.id || 0)
     }
   }
 }

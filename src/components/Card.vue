@@ -1,8 +1,18 @@
 <template>
-  <a class="card" :class="className" :href="href">
+  <a class="card" :class="typeClass" :href="href" target="_blank">
     <div class="card-content">
-      <div class="card-image-block">
-        <img class="card-image-item" :src="img" alt="背景图片" />
+      <div class="card-image-block" :style="{ backgroundColor: color }">
+        <el-image
+          class="card-image-item"
+          :src="img"
+          :fit="'scale-down'"
+          scroll-container=".scrollbar-wrapper"
+          lazy
+        >
+          <div slot="error" class="image-slot">
+            <i class="el-icon-picture-outline"></i>
+          </div>
+        </el-image>
       </div>
       <div class="card-text-block">
         <h2 class="card-title">{{ title }}</h2>
@@ -16,30 +26,34 @@ export default {
   props: {
     title: {
       type: String,
-      default: "谷歌搜索",
+      default: '谷歌搜索',
     },
     href: {
       type: String,
-      default: "",
+      default: ' ',
     },
     img: {
       type: String,
-      default: require("@/assets/img/google.png"),
+      default: require('@/assets/img/google.png'),
     },
     description: {
       type: String,
-      default: "谷歌搜索，国内不知名404小厂",
+      default: '谷歌搜索，国内不知名404小厂',
     },
     type: {
       type: String,
-      default: "vertical",
+      default: 'vertical',
     },
+    color: {
+      type: String,
+      default: '#edf0f3',
+    }
   },
   computed: {
-    className() {
+    typeClass() {
       return this.type === "vertical" ? "card-vertical" : "card-horizontal";
     },
-  },
+  }
 };
 </script>
 <style lang="scss" scoped>
@@ -62,7 +76,6 @@ export default {
   width: 288px;
   height: 94px;
   border-radius: 10px;
-  background-color: #eee;
   overflow: hidden;
   display: flex;
   justify-content: center;
