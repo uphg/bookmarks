@@ -15,15 +15,14 @@
 <script>
 import Card from './Card'
 import bookMarks from '@/api/bookmarks'
-import listenEvents from '@/mixin/listen-events.js' /* 存放监听事件 */
 export default {
-  mixins: [listenEvents],
   components: { Card },
   data() {
     return {
-      cardType: 'horizontal', // 展示类型（横排[horizontal] / 竖排[vertical]）
+      // cardType: 'horizontal', // 展示类型（横排[horizontal] / 竖排[vertical]）
       cardIndex: 0, // 当前分类的 index，与 id 对应
       bookMarks: bookMarks, // 书签数据
+      type: null
     }
   },
   inject: ['eventBus'],
@@ -34,6 +33,34 @@ export default {
     },
     cardList() {
       return this.bookMarks[this.cardIndex]['list'] || []
+    },
+    cardType: {
+      get() {
+        return this.type ? this.type : localStorage.getItem('bookmark-type-key') || 'horizontal'
+      },
+      set(value) {
+        this.type = value
+        localStorage.setItem('bookmark-type-key', value)
+      }
+    }
+  },
+  mounted() {
+    this.cardType = localStorage.getItem('bookmark-type-key') || 'horizontal'
+    console.log('this.cardType')
+    console.log(this.cardType)
+    this.listenEvents()
+  },
+  methods: {
+    /* @监听事件 */
+    listenEvents() {
+      /* 监听书签卡片展示类型的变化 */
+      this.eventBus.$on('data-setting-card-type', (type) => {
+        this.cardType = type
+      })
+      /* 监听书签数据分类 index 的变化 */
+      this.eventBus.$on('data-card-index', (index) => {
+        this.cardIndex = index
+      })
     }
   },
 }
