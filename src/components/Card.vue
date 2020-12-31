@@ -34,7 +34,7 @@ export default {
     },
     img: {
       type: String,
-      default: require('@/assets/img/google.png'),
+      default: require('@/assets/img/google-logo.png'),
     },
     description: {
       type: String,

@@ -15,8 +15,10 @@
 <script>
 import Card from './Card'
 import bookMarks from '@/api/bookmarks'
+import getBookMarks from '@/mixins/BookMarks.js'
 export default {
   components: { Card },
+  mixins: [getBookMarks],
   data() {
     return {
       // cardType: 'horizontal', // 展示类型（横排[horizontal] / 竖排[vertical]）
@@ -46,8 +48,6 @@ export default {
   },
   mounted() {
     this.cardType = localStorage.getItem('bookmark-type-key') || 'horizontal'
-    console.log('this.cardType')
-    console.log(this.cardType)
     this.listenEvents()
   },
   methods: {
