@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "title": "Vue.js 2.x",
+      "description": "Vue 2.0 官方中文文档",
+      "href": "https://cn.vuejs.org/index.html",
+      "img": "vue-logo-1.svg",
+      "color": "#041c5a"
+    },
+    {
+      "title": "Vue.js 3.x",
+      "description": "Vue 3.0 官方中文文档",
+      "href": "https://v3.cn.vuejs.org/",
+      "img": "vue-logo-3.svg",
+      "color": "#4f48ad"
+    },
+    {
+      "title": "React",
+      "description": "React 官方中文文档",
+      "href": "https://zh-hans.reactjs.org/",
+      "img": "react-logo.svg",
+      "color": "#20232a"
+    },
+    {
+      "title": "Node.js",
+      "description": "Node.js 官方地址",
+      "href": "https://nodejs.org/zh-cn/",
+      "img": "node-logo.svg",
+      "color": "#1b1b1b"
+    },
+    {
+      "title": "Flutter",
+      "description": "Flutter 官方地址",
+      "href": "https://flutter.dev/",
+      "img": "flutter-logo.png",
+    }
+  ]
+}

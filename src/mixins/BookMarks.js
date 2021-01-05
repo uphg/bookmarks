@@ -1,4 +1,5 @@
 import { getFun } from '@/api/request.js'
+import jsonList from '@/api/json-list.js'
 export default {
   data() {
     return {
@@ -9,10 +10,11 @@ export default {
     this.getBookMarks()
   },
   methods: {
-    getBookMarks() {
-      getFun('../static/data.json').then(response => {
+    getBookMarks(url) {
+      getFun(`/bookmarks/static/${jsonList[this.cardIndex]}`).then(response => {
         console.log('# response')
         console.log(response)
+        this.marksList = response.data
       }).catch(error => {
         console.log('# error')
         console.log(error)

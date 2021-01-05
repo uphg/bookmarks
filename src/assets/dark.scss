@@ -9,8 +9,7 @@ $transition-time: 0;
     border-left-color: #333434;
     transition: border-color $transition-time;
   }
-  .navbar .el-icon-notebook-2:before {
-    font-size: 26px;
+  .navbar i:before {
     color: #4592af;
     transition: color $transition-time;
   }

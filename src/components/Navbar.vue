@@ -2,19 +2,19 @@
   <header class="navbar version-heart">
     <div class="navbar-left">
       <div class="navbar-logo">
-        <i class="el-icon-notebook-2"></i>
+        <i class="el-icon-apple"></i>
       </div>
       <div class="divider"></div>
       <div class="navbar-title">
         <el-dropdown trigger="click" placement="bottom">
           <span class="el-dropdown-link"
-            >{{ title }}<i class="el-icon-arrow-down el-icon--right"></i
+            ><span>{{ title }}</span><i class="el-icon-arrow-down el-icon--right"></i
           ></span>
           <el-dropdown-menu slot="dropdown" class="navbar-dropdown-menu">
             <el-dropdown-item
               v-for="(value, key) in titleList"
               :key="key"
-              @click.native="clickDropdown(value)"
+              @click.native="clickDropdown(value, key)"
               >{{ value.title }}</el-dropdown-item
             >
           </el-dropdown-menu>
@@ -31,7 +31,7 @@
   </header>
 </template>
 <script>
-import bookMarks from '../api/bookmarks'
+import bookMarks from '@/api/json-list.js'
 export default {
   inject: ['eventBus'],
   data() {
@@ -54,9 +54,9 @@ export default {
       this.eventBus.$emit('data-setting-status', true)
       this.settingStatus = true
     },
-    clickDropdown(value) {
+    clickDropdown(value, index) {
       this.title = value.title || '-'
-      this.eventBus.$emit('data-card-index', value.id || 0)
+      this.eventBus.$emit('data-card-index', index || 0)
     }
   }
 }

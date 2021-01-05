@@ -2,7 +2,7 @@
   <transition name="fade-transform" mode="out-in">
     <main class="default-content version-heart" :key="contentKey">
       <Card
-        v-for="(value, key) in cardList"
+        v-for="(value, key) in marksList"
         :key="key"
         :title="value.title"
         :description="value.description"
@@ -14,7 +14,7 @@
 </template>
 <script>
 import Card from './Card'
-import bookMarks from '@/api/bookmarks'
+
 import getBookMarks from '@/mixins/BookMarks.js'
 export default {
   components: { Card },
@@ -22,8 +22,6 @@ export default {
   data() {
     return {
       // cardType: 'horizontal', // 展示类型（横排[horizontal] / 竖排[vertical]）
-      cardIndex: 0, // 当前分类的 index，与 id 对应
-      bookMarks: bookMarks, // 书签数据
       type: null
     }
   },

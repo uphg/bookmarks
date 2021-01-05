@@ -21,9 +21,14 @@ body {
 }
 
 .navbar .el-dropdown-link  {
+  display: flex;
+  align-items: center;
   font-size: $title-font-size;
   &:focus {
     outline: none;
+  }
+  i {
+    margin-top: 2px;
   }
 }
 .navbar-dropdown-menu .el-dropdown-menu__item {
@@ -31,7 +36,7 @@ body {
 }
 
 /* 头部两个图标的大小 */
-.navbar .el-icon-notebook-2:before {
+.navbar i:before {
   font-size: $logo-icon-size;
   color: $logo-icon-color;
 }
