@@ -15,8 +15,8 @@
         </el-image>
       </div>
       <div class="card-text-block">
-        <h2 class="card-title">{{ title }}</h2>
-        <p class="card-description">{{ description }}</p>
+        <h2 class="card-title text-omit">{{ title }}</h2>
+        <p class="card-description text-omit">{{ description }}</p>
       </div>
     </div>
   </a>
@@ -26,34 +26,34 @@ export default {
   props: {
     title: {
       type: String,
-      default: '谷歌搜索',
+      default: "谷歌搜索",
     },
     href: {
       type: String,
-      default: ' ',
+      default: " ",
     },
     img: {
       type: String,
-      default: require('@/assets/img/google-logo.png'),
+      default: require("@/assets/img/google-logo.png"),
     },
     description: {
       type: String,
-      default: '谷歌搜索，国内不知名404小厂',
+      default: "谷歌搜索，国内不知名404小厂",
     },
     type: {
       type: String,
-      default: 'vertical',
+      default: "vertical",
     },
     color: {
       type: String,
-      default: '#edf0f3',
-    }
+      default: "#edf0f3",
+    },
   },
   computed: {
     typeClass() {
       return this.type === "vertical" ? "card-vertical" : "card-horizontal";
     },
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -82,7 +82,7 @@ export default {
   align-items: center;
 }
 .card-image-item {
-  max-height: 48px;
+  height: 55px;
 }
 .card-text-block {
   padding: 12px;
@@ -121,9 +121,21 @@ export default {
   .card-text-block {
     flex-grow: 1;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
     padding-left: 36px;
   }
+  .card-title {
+    width: 260px;
+  }
+  .card-description {
+    width: 338px;
+    padding-left: 20px;
+  }
+}
+.text-omit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>

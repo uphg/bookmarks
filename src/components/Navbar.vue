@@ -8,7 +8,8 @@
       <div class="navbar-title">
         <el-dropdown trigger="click" placement="bottom">
           <span class="el-dropdown-link"
-            ><span>{{ title }}</span><i class="el-icon-arrow-down el-icon--right"></i
+            ><span>{{ title }}</span
+            ><i class="el-icon-arrow-down el-icon--right"></i
           ></span>
           <el-dropdown-menu slot="dropdown" class="navbar-dropdown-menu">
             <el-dropdown-item
@@ -31,35 +32,45 @@
   </header>
 </template>
 <script>
-import bookMarks from '@/api/json-list.js'
+import bookMarks from "@/api/json-list.js";
 export default {
-  inject: ['eventBus'],
+  inject: ["eventBus"],
   data() {
     return {
       settingStatus: false,
-      title: bookMarks[0].title,
-      titleList: bookMarks
-    }
+      // title: bookMarks[0].title,
+      index: null,
+      titleList: bookMarks,
+    };
+  },
+  computed: {
+    title() {
+      const number = this.index
+        ? this.index
+        : Number(localStorage.getItem("bookmark-index-key") || 0);
+      return bookMarks[number].title;
+    },
   },
   mounted() {
-    this.initStatus()
+    this.initStatus();
   },
   methods: {
     initStatus() {
-      this.eventBus.$on('data-setting-close', (status) => {
-        this.settingStatus = status
-      })
+      this.eventBus.$on("data-setting-close", (status) => {
+        this.settingStatus = status;
+      });
     },
     openSetting() {
-      this.eventBus.$emit('data-setting-status', true)
-      this.settingStatus = true
+      this.eventBus.$emit("data-setting-status", true);
+      this.settingStatus = true;
     },
     clickDropdown(value, index) {
-      this.title = value.title || '-'
-      this.eventBus.$emit('data-card-index', index || 0)
-    }
-  }
-}
+      this.index = index;
+      this.eventBus.$emit("data-card-index", index || 0);
+      localStorage.setItem("bookmark-index-key", index);
+    },
+  },
+};
 </script>
 <style lang="scss" scoped>
 .navbar {
