@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "title": "explainshell",
+      "description": "命令查询工具",
+      "href": "https://explainshell.com/",
+      "img": "explainshell-logo.png",
+      "color": "#ffffff"
+    },
+    {
+      "title": "Node.js",
+      "description": "JavaScript 运行时",
+      "href": "https://nodejs.org/zh-cn/",
+      "img": "node-logo.svg",
+      "color": "#333333"
+    },
+    {
+      "title": "Yarn",
+      "description": "包管理器",
+      "href": "https://yarnpkg.com/",
+      "img": "yarn-logo.svg"
+    },
+    {
+      "title": "npm",
+      "description": "包管理器",
+      "href": "https://www.npmjs.com/",
+      "img": "npm-logo.svg"
+    }
+  ]
+}

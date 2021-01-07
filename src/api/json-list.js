@@ -4,11 +4,23 @@ export default [
     href: "frame.json"
   },
   {
-    title: "前端 UI 组件库",
+    title: "UI 组件库",
     href: "components.json"
+  },
+  {
+    title: "命令行",
+    href: "shell.json"
   },
   {
     title: "GitHub",
     href: "github.json"
+  },
+  {
+    title: "在线工具",
+    href: "tool.json"
+  },
+  {
+    title: "开发者",
+    href: "developer.json"
   }
 ]

@@ -1,23 +1,22 @@
 <template>
   <header class="navbar version-heart">
     <div class="navbar-left">
-      <div class="navbar-logo">
+      <!-- <div class="navbar-logo">
         <i class="el-icon-apple"></i>
       </div>
-      <div class="divider"></div>
+      <div class="divider"></div> -->
       <div class="navbar-title">
         <el-dropdown trigger="click" placement="bottom">
-          <span class="el-dropdown-link"
-            ><span>{{ title }}</span
-            ><i class="el-icon-arrow-down el-icon--right"></i
-          ></span>
+          <span class="el-dropdown-link">
+            <span class="navbar-icon-down"><i class="el-icon-arrow-down el-icon--left"></i></span>
+            <span>{{ title }}</span>
+          </span>
           <el-dropdown-menu slot="dropdown" class="navbar-dropdown-menu">
             <el-dropdown-item
               v-for="(value, key) in titleList"
               :key="key"
               @click.native="clickDropdown(value, key)"
-              >{{ value.title }}</el-dropdown-item
-            >
+            >{{ value.title }}</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
       </div>
@@ -38,20 +37,18 @@ export default {
   data() {
     return {
       settingStatus: false,
-      // title: bookMarks[0].title,
-      index: null,
+      index: 0,
       titleList: bookMarks,
     };
   },
   computed: {
     title() {
-      const number = this.index
-        ? this.index
-        : Number(localStorage.getItem("bookmark-index-key") || 0);
-      return bookMarks[number].title;
+      return bookMarks[this.index].title;
     },
   },
   mounted() {
+    const index = Number(localStorage.getItem("bookmark-index-key")) || 0;
+    this.index = index;
     this.initStatus();
   },
   methods: {
@@ -65,6 +62,10 @@ export default {
       this.settingStatus = true;
     },
     clickDropdown(value, index) {
+      console.log("# value");
+      console.log(value);
+      console.log("# index");
+      console.log(index);
       this.index = index;
       this.eventBus.$emit("data-card-index", index || 0);
       localStorage.setItem("bookmark-index-key", index);
@@ -76,7 +77,7 @@ export default {
 .navbar {
   padding: 0 10px;
   min-height: 50px;
-  margin: 36px auto;
+  // margin: 36px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -93,6 +94,10 @@ export default {
 .navbar-title {
   display: flex;
   cursor: pointer;
+}
+.navbar-logo {
+  width: 26px;
+  height: 26px;
 }
 
 .el-icon-setting {

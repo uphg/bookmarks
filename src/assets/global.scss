@@ -27,9 +27,12 @@ body {
   &:focus {
     outline: none;
   }
-  i {
-    margin-top: 2px;
-  }
+}
+.navbar-icon-down {
+  width: 31px;
+  height: 26px;
+  margin-top: 2px;
+  display: flex;
 }
 .navbar-dropdown-menu .el-dropdown-menu__item {
   font-size: $title-font-size;

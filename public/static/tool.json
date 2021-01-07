@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "title": "CSS 渐变生成器",
+      "description": "便捷生成CSS渐变效果",
+      "href": "https://www.colorzilla.com/gradient-editor/",
+      "img": "colorzilla-logo.png"
+    },
+    {
+      "title": "CSS 阴影生成器",
+      "description": "快速生成CSS阴影，支持自定义数值",
+      "href": "https://www.cssmatic.com/box-shadow",
+      "img": "cssmatic-logo.svg",
+      "color": "#ffffff"
+    },
+    {
+      "title": "在线压缩 JPG",
+      "description": "可以一次压缩最多20张JPG或.jpeg图片",
+      "href": "https://compressjpeg.com/zh/",
+      "img": "compressjpeg-logo.png",
+      "color": "#ffffff"
+    }
+  ]
+}

@@ -6,52 +6,40 @@ export default {
     return {
       type: null,
       index: 0,
+      cardIndex: 0,
+      cardType: 'horizontal',
+      contentKey: null,
       marksList: []
     }
   },
   computed: {
-    /* 每次操作页面时刷新 key */
-    contentKey() {
-      return this.cardIndex + this.cardType
-    },
     /* 动态改变数据列表 */
     dataUrl() {
       return `/bookmarks/static/${jsonList[this.cardIndex].href}`
-    },
-    cardIndex: {
-      get() {
-        const number = Number(this.index ? this.index : localStorage.getItem('bookmark-index-key') || 0)
-        return number
-      },
-      set(value) {
-        this.index = value
-        localStorage.setItem('bookmark-index-key', value)
-      }
-    },
-    /* 展示类型（横排[horizontal] / 竖排[vertical]） */
-    cardType: {
-      get() {
-        return this.type ? this.type : localStorage.getItem('bookmark-type-key') || 'horizontal'
-      },
-      set(value) {
-        this.type = value
-        localStorage.setItem('bookmark-type-key', value)
-      }
     }
   },
   mounted() {
     this.initData()
+    this.getBookMarks(true)
+    this.monitor()
   },
   methods: {
     initData() {
-      this.getBookMarks(true)
-      this.cardType = localStorage.getItem('bookmark-type-key') || 'horizontal'
+      this.$set(this, 'cardIndex', Number(localStorage.getItem('bookmark-index-key')) || 0)
+      this.$set(this, 'cardType', localStorage.getItem('bookmark-type-key') || 'horizontal')
+      // this.cardIndex = Number(localStorage.getItem('bookmark-index-key')) || 0
+      // this.cardType = localStorage.getItem('bookmark-type-key') || 'horizontal'
+    },
+    monitor() {
       /* 监听书签卡片展示类型的变化 */
       this.eventBus.$on('data-setting-card-type', (type) => {
         this.cardType = type
+        this.refreshKey(type)
       })
+      /* 监听展示数据的变化 */
       this.eventBus.$on('data-card-index', (index) => {
         this.cardIndex = index
+        this.refreshKey(index)
         this.getBookMarks()
       })
     },
@@ -71,6 +59,9 @@ export default {
     loadingTransition() {
       const elements = document.querySelectorAll(".box-stagger")
       Velocity(elements, "transition.slideLeftBigIn", { stagger: 100 })
+    },
+    refreshKey(value) {
+      this.contentKey = value + String(Math.abs(Math.random()*1000))
     }
   }
 }

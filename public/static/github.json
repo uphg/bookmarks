@@ -1,18 +1,18 @@
 {
   "data": [
     {
-      "title": "「方应杭」收集优质的中文前端博客",
-      "description": "描述",
+      "title": "优质的中文前端博客",
+      "description": "作者：方应航（不定时更新）。",
       "href": "",
-      "img": "google-logo.png",
-      "color": "背景颜色"
+      "img": "github-light.svg",
+      "color": "#24292e"
     },
     {
-      "title": "「方应杭」收集优质的中文前端博客",
+      "title": "收集优质的中文前端博客",
       "description": "描述",
       "href": "",
-      "img": "google-logo.png",
-      "color": "背景颜色"
+      "img": "github-light.svg",
+      "color": "#24292e"
     }
   ]
 }

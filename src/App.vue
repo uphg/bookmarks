@@ -2,7 +2,7 @@
   <div id="app" :class="{ dark: themeType === 'dark' }">
     <el-scrollbar wrap-class="scrollbar-wrapper">
       <div class="box-stagger" style="display: none; transition: ease 0s"></div>
-      <div class="box-stagger">
+      <div class="box-stagger navbar-transition">
         <Navbar />
       </div>
       <Main />
@@ -60,5 +60,10 @@ export default {
 }
 .scrollbar-wrapper {
   overflow-x: hidden !important;
+}
+.navbar-transition {
+  max-width: 956px;
+  height: 50px;
+  margin: 36px auto;
 }
 </style>

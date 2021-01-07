@@ -22,11 +22,11 @@
       "color": "#20232a"
     },
     {
-      "title": "Node.js",
+      "title": "Angular",
       "description": "Node.js 官方地址",
-      "href": "https://nodejs.org/zh-cn/",
-      "img": "node-logo.svg",
-      "color": "#1b1b1b"
+      "href": "https://angular.io/",
+      "img": "angular-logo.png",
+      "color": "#1759b1"
     },
     {
       "title": "Flutter",

@@ -1,8 +1,9 @@
 <template>
   <a class="card box-stagger" :class="typeClass" :href="href" target="_blank">
     <div class="card-content">
-      <div class="card-image-block" :style="{ backgroundColor: color }">
+      <div class="card-image-block" :style="{ backgroundColor: color}">
         <el-image
+          v-if="img"
           class="card-image-item"
           :src="img"
           :fit="'scale-down'"
@@ -13,6 +14,11 @@
             <i class="el-icon-picture-outline"></i>
           </div>
         </el-image>
+        <div
+          class="card-logo-text"
+          :style="{color: textColor}"
+          v-else
+        >{{title}}</div>
       </div>
       <div class="card-text-block">
         <h2 class="card-title text-omit">{{ title }}</h2>
@@ -44,6 +50,10 @@ export default {
       type: String,
       default: "vertical",
     },
+    textColor: {
+      type: String,
+      default: "#2c3e50"
+    },
     color: {
       type: String,
       default: "#edf0f3",
@@ -52,7 +62,7 @@ export default {
   computed: {
     typeClass() {
       return this.type === "vertical" ? "card-vertical" : "card-horizontal";
-    },
+    }
   },
 };
 </script>
@@ -89,15 +99,22 @@ export default {
 }
 .card-title {
   font-size: 24px;
-  line-height: 1;
+  line-height: 36px;
+  height: 36px;
+  // line-height: 1;
   color: #002059;
 }
 .card-description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1;
+  line-height: 20px;
+  height: 20px;
   color: #667899;
   transition: color 0.2s ease;
+}
+.card-logo-text {
+  font-weight: 700;
+  font-size: 30px;
 }
 .card-horizontal {
   width: calc(33.333333% - 6px);
@@ -109,8 +126,9 @@ export default {
     margin-right: 0;
   }
   .card-title {
-    margin-bottom: 10px;
-    padding-top: 12px;
+    margin-top: 8px;
+    // margin-bottom: 10px;
+    // padding-top: 12px;
   }
 }
 .card-vertical {
