@@ -1,18 +1,18 @@
 {
   "data": [
     {
-      "title": "Vue.js 2.x",
+      "title": "Vue.js 2.0",
       "description": "Vue 2.0 官方中文文档",
       "href": "https://cn.vuejs.org/index.html",
       "img": "vue-logo-1.svg",
-      "color": "#041c5a"
+      "color": "#f6f6f6"
     },
     {
-      "title": "Vue.js 3.x",
+      "title": "Vue.js 3.0",
       "description": "Vue 3.0 官方中文文档",
       "href": "https://v3.cn.vuejs.org/",
       "img": "vue-logo-3.svg",
-      "color": "#4f48ad"
+      "color": "#f6f6f6"
     },
     {
       "title": "React",
