@@ -3,7 +3,8 @@ import jsonList from '@/api/json-list.js'
 export default {
   data() {
     return {
-      marksList: []
+      marksList: [],
+      cardIndex: 0
     }
   },
   mounted() {
@@ -11,10 +12,10 @@ export default {
   },
   methods: {
     getBookMarks(url) {
-      getFun(`/bookmarks/static/${jsonList[this.cardIndex]}`).then(response => {
+      getFun(`/bookmarks/static/${jsonList[this.cardIndex].href}`).then(response => {
         console.log('# response')
-        console.log(response)
-        this.marksList = response.data
+        const jsonData = response
+        console.log(JSON.parse(jsonData))
       }).catch(error => {
         console.log('# error')
         console.log(error)

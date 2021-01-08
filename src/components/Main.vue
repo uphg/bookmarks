@@ -45,7 +45,7 @@ export default {
     }
   },
   mounted() {
-    this.cardType = localStorage.getItem('bookmark-type-key') || 'horizontal'
+    // this.cardType = localStorage.getItem('bookmark-type-key') || 'horizontal'
     this.listenEvents()
   },
   methods: {
