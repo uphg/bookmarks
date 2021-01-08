@@ -35,6 +35,13 @@
       "color": "#0a0a0a"
     },
     {
+      "title": "Framework7",
+      "description": "支持 Vue、React、原生 JS 的组件库，并且兼容移动端",
+      "href": "https://framework7.io/",
+      "img": "framework7-logo.svg",
+      "color": "#f2f8fe"
+    },
+    {
       "title": "Ant Design",
       "description": "React 组件库",
       "href": "https://ant.design/index-cn",
@@ -55,13 +62,6 @@
       "github": "https://github.com/shoelace-style/shoelace",
       "img": "shoelace-logo.svg",
       "color": "#ffffff"
-    },
-    {
-      "title": "Framework7",
-      "description": "支持 Vue、React、原生JS的组件库，并且兼容移动端",
-      "href": "https://framework7.io/",
-      "img": "framework7-logo.svg",
-      "color": "#f2f8fe"
     },
     {
       "title": "iView",

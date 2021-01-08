@@ -21,6 +21,22 @@
       "color": "#ffffff"
     },
     {
+      "title": "草料二维码",
+      "description": "在线的二维码生成工具",
+      "href": "https://cli.im/",
+      "textColor": "#676767"
+    },
+    {
+      "title": "生成 CSS 字体",
+      "description": "快速生成指定格式字体",
+      "href": "https://www.fontke.com/tool/fontface/"
+    },
+    {
+      "title": "比特虫",
+      "description": "生成图标 ico",
+      "href": "http://www.bitbug.net/"
+    },
+    {
       "title": "在线屏幕检测",
       "href": "https://screen.bmcx.com/#welcome",
       "img": "screen-logo.png",
