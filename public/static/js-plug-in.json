@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "title": "tween.js",
+      "description": "JS 补间动画插件。",
+      "href": "https://github.com/tweenjs/tween.js/",
+      "github": "https://github.com/tweenjs/tween.js/",
+      "img": "github-light.svg",
+      "color": "#24292e"
+    },
+    {
+      "title": "Lodash",
+      "description": "JS 方法库，提供常用的数据处理方法。",
+      "href": "https://lodash.com/",
+      "img": "lodash-logo.svg"
+    },
+    {
+      "title": "Chart.js",
+      "description": "JavaScript 可视化图表库",
+      "href": "https://www.chartjs.org/",
+      "github": "https://github.com/chartjs/Chart.js",
+      "img": "chartjs-logo.svg"
+    },
+    {
+      "title": "Day.js",
+      "description": "一个不到 2kB 的 JS 时间插件",
+      "href": "https://dayjs.gitee.io/zh-CN/",
+      "github": "https://github.com/iamkun/dayjs/",
+      "img": "dayjs-logo.png",
+      "color": "#ffffff"
+    },
+    {
+      "title": "Moment.js",
+      "description": "JavaScript 时间库，用于格式化时间。",
+      "href": "https://momentjs.com/",
+      "github": "",
+      "img": ""
+    },
+    {
+      "title": "Velocity.js",
+      "description": "JS 过渡动画库。",
+      "href": "http://velocityjs.org/",
+      "textColor": "#3a3a3a",
+      "color": "#f3f3f3"
+    },
+    {
+      "title": "Immer",
+      "description": "JS 深拷贝插件",
+      "href": "https://github.com/immerjs/immer",
+      "img": "immer-logo.svg"
+    },
+    {
+      "title": "Immutable",
+      "description": "JS 深拷贝插件",
+      "href": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "title": "Hover.css",
+      "description": "CSS Hover 样式库",
+      "href": "http://ianlunn.github.io/Hover/",
+      "github": "https://github.com/IanLunn/Hover"
+    },
+    {
+      "title": "Slick",
+      "description": "基于 jQuery 的轮播插件。",
+      "href": "http://kenwheeler.github.io/slick/",
+      "github": "https://github.com/kenwheeler/slick",
+      "textColor": "#3498db",
+      "color": "#ffffff"
+    }
+  ]
+}

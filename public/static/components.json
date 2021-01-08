@@ -5,7 +5,7 @@
       "description": "Element 基于 Vue 2.0 的桌面端组件库",
       "href": "https://element.eleme.cn/#/zh-CN",
       "img": "element-logo.svg",
-      "color": "#001938"
+      "color": "#ecf5ff"
     },
     {
       "title": "Vant",
@@ -49,6 +49,14 @@
       "color": "#f2f8fe"
     },
     {
+      "title": "Shoelace",
+      "description": "Web Components 组件库",
+      "href": "https://shoelace.style/",
+      "github": "https://github.com/shoelace-style/shoelace",
+      "img": "shoelace-logo.svg",
+      "color": "#ffffff"
+    },
+    {
       "title": "Framework7",
       "description": "支持 Vue、React、原生JS的组件库，并且兼容移动端",
       "href": "https://framework7.io/",
@@ -56,8 +64,15 @@
       "color": "#f2f8fe"
     },
     {
+      "title": "iView",
+      "description": "基于 Vue 的 UI 组件库",
+      "href": "http://iview.talkingdata.com/#/",
+      "img": "iview-logo.png",
+      "color": "#ffffff"
+    },
+    {
       "title": "Layui",
-      "description": "",
+      "description": "基于 jQuery 的 UI 框架",
       "href": "https://www.layui.com/"
     }
   ]

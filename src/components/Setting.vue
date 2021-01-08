@@ -89,7 +89,7 @@ export default {
     /* 修改展示方式（列 / 行） */
     setType(type) {
       this.addEvent('data-setting-card-type', type)
-      // localStorage.setItem('bookmark-type-key', type)
+      localStorage.setItem('bookmark-type-key', type)
     },
     /* 添加事件 */
     addEvent(name, type) {

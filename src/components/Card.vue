@@ -1,8 +1,9 @@
 <template>
   <a class="card box-stagger" :class="typeClass" :href="href" target="_blank">
     <div class="card-content">
-      <div class="card-image-block" :style="{ backgroundColor: color }">
+      <div class="card-image-block" :style="{ backgroundColor: color}">
         <el-image
+          v-if="img"
           class="card-image-item"
           :src="img"
           :fit="'scale-down'"
@@ -13,10 +14,15 @@
             <i class="el-icon-picture-outline"></i>
           </div>
         </el-image>
+        <div
+          class="card-logo-text"
+          :style="{color: textColor}"
+          v-else
+        >{{title}}</div>
       </div>
       <div class="card-text-block">
-        <h2 class="card-title">{{ title }}</h2>
-        <p class="card-description">{{ description }}</p>
+        <h2 class="card-title text-omit">{{ title }}</h2>
+        <p class="card-description text-omit">{{ description }}</p>
       </div>
     </div>
   </a>
@@ -26,34 +32,38 @@ export default {
   props: {
     title: {
       type: String,
-      default: '谷歌搜索',
+      default: "谷歌搜索",
     },
     href: {
       type: String,
-      default: ' ',
+      default: " ",
     },
     img: {
       type: String,
-      default: require('@/assets/img/google-logo.png'),
+      default: require("@/assets/img/google-logo.png"),
     },
     description: {
       type: String,
-      default: '谷歌搜索，国内不知名404小厂',
+      default: "谷歌搜索，国内不知名404小厂",
     },
     type: {
       type: String,
-      default: 'vertical',
+      default: "vertical",
+    },
+    textColor: {
+      type: String,
+      default: "#2c3e50"
     },
     color: {
       type: String,
-      default: '#edf0f3',
-    }
+      default: "#edf0f3",
+    },
   },
   computed: {
     typeClass() {
       return this.type === "vertical" ? "card-vertical" : "card-horizontal";
-    },
-  }
+    }
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -82,22 +92,29 @@ export default {
   align-items: center;
 }
 .card-image-item {
-  max-height: 48px;
+  height: 60px;
 }
 .card-text-block {
   padding: 12px;
 }
 .card-title {
+  font-weight: normal;
   font-size: 24px;
-  line-height: 1;
+  line-height: 36px;
+  height: 36px;
+  // line-height: 1;
   color: #002059;
 }
 .card-description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1;
+  line-height: 20px;
+  height: 20px;
   color: #667899;
   transition: color 0.2s ease;
+}
+.card-logo-text {
+  font-size: 30px;
 }
 .card-horizontal {
   width: calc(33.333333% - 6px);
@@ -109,8 +126,9 @@ export default {
     margin-right: 0;
   }
   .card-title {
-    margin-bottom: 10px;
-    padding-top: 12px;
+    margin-top: 8px;
+    // margin-bottom: 10px;
+    // padding-top: 12px;
   }
 }
 .card-vertical {
@@ -121,9 +139,21 @@ export default {
   .card-text-block {
     flex-grow: 1;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
     padding-left: 36px;
   }
+  .card-title {
+    width: 260px;
+  }
+  .card-description {
+    width: 338px;
+    padding-left: 20px;
+  }
+}
+.text-omit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>
