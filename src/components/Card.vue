@@ -83,7 +83,7 @@ export default {
   }
 }
 .card-image-block {
-  width: 288px;
+  width: 290px;
   height: 94px;
   border-radius: 10px;
   overflow: hidden;
