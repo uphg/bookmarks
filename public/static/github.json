@@ -9,7 +9,7 @@
     },
     {
       "title": "Wheels",
-      "description": "原生JS造轮子，不用任何框架、预编译，用最笨的办法造轮子。",
+      "description": "原生 JS 造轮子，不用任何框架、预编译，用最笨的办法造轮子。",
       "href": "https://github.com/FrankFang/wheels",
       "textColor": "#ffffff",
       "color": "#24292e"
@@ -28,7 +28,7 @@
     },
     {
       "title": "Gulu UI",
-      "description": "面向源码阅读者的 Vue UI 裤架，主要用于学习轮子的制作思路。",
+      "description": "面向源码阅读者的 Vue UI 框架，主要用于学习轮子的制作思路。",
       "href": "https://github.com/FrankFang/gulu"
     },
     {
