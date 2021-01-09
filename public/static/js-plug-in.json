@@ -3,7 +3,9 @@
     {
       "title": "Axios",
       "description": "基于 Promise 的 HTTP 库。",
-      "href": "https://github.com/axios/axios"
+      "href": "https://github.com/axios/axios",
+      "textColor": "#171f26",
+      "color":"#ffaa56"
     },
     {
       "title": "Day.js",
@@ -24,15 +26,16 @@
       "title": "ECharts",
       "description": "JS 可视化库。",
       "href": "https://echarts.apache.org/zh/index.html",
-      "img": "echarts-logo.png",
-      "color": "#293c55"
+      "img": "echarts-logo.svg",
+      "color": "#ffffff"
     },
     {
       "title": "Chart.js",
       "description": "JavaScript 可视化图表库。",
       "href": "https://www.chartjs.org/",
       "github": "https://github.com/chartjs/Chart.js",
-      "img": "chartjs-logo.svg"
+      "img": "chartjs-logo.svg",
+      "color": "#ffffff"
     },
     {
       "title": "Three.js",
@@ -53,14 +56,22 @@
       "title": "Moment.js",
       "description": "JavaScript 时间库，用于格式化时间。",
       "href": "https://momentjs.com/",
-      "github": "",
-      "img": ""
+      "text": "MOMENT",
+      "textColor": "#ffffff",
+      "color": "#040404"
     },
     {
       "title": "Jest",
       "description": "JavaScript 测试框架。",
       "href": "https://jestjs.io/zh-Hans/",
       "textColor": "#15c213",
+      "color": "#ffffff"
+    },
+    {
+      "title": "jQuery",
+      "description": "jQuery 官网",
+      "href": "https://jquery.com/",
+      "img": "jquery-logo.svg",
       "color": "#ffffff"
     },
     {
@@ -89,8 +100,7 @@
       "description": "JS 补间动画插件。",
       "href": "https://github.com/tweenjs/tween.js/",
       "github": "https://github.com/tweenjs/tween.js/",
-      "img": "github-light.svg",
-      "color": "#24292e"
+      "color": "#ffffff"
     },
     {
       "title": "Immer",

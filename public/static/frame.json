@@ -37,6 +37,28 @@
       "color": "#2f3241"
     },
     {
+      "title": "Node.js",
+      "description": "JavaScript 运行环境，使 JavaScript 能够脱离浏览器运行。",
+      "href": "https://nodejs.org/zh-cn/",
+      "img": "node-logo.svg",
+      "color": "#333333"
+    },
+    {
+      "title": "Express",
+      "description": "Node.js 框架",
+      "href": "https://expressjs.com/zh-cn/",
+      "textColor": "#353535",
+      "color": "#ffffff"
+    },
+    {
+      "title": "NestJS",
+      "description": "Node.js 框架，支持 JS TS 以及 ES6+ 语法",
+      "href": "https://nestjs.com/",
+      "github": "https://github.com/nestjs/nest",
+      "img": "nestjs-logo.svg",
+      "color": "#0e0e10"
+    },
+    {
       "title": "UmiJS",
       "description": "前端应用框架。",
       "href": "https://umijs.org/zh-CN",
@@ -47,6 +69,13 @@
       "description": "快速搭建文档。",
       "href": "https://d.umijs.org/zh-CN",
       "img": "umi-logo.png"
+    },
+    {
+      "title": "uni-app",
+      "description": "快速创建多端的前端应用。",
+      "href": "https://uniapp.dcloud.io/",
+      "github": "https://github.com/dcloudio/uni-app",
+      "textColor": "#2b9939"
     },
     {
       "title": "Flutter",
@@ -60,13 +89,6 @@
       "href": "https://angular.io/",
       "img": "angular-logo.png",
       "color": "#1759b1"
-    },
-    {
-      "title": "uni-app",
-      "description": "快速创建多端的前端应用。",
-      "href": "https://uniapp.dcloud.io/",
-      "github": "https://github.com/dcloudio/uni-app",
-      "img": "uniapp-logo.png"
     }
   ]
 }

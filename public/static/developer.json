@@ -13,6 +13,25 @@
       "href": "https://sm.ms/",
       "textColor": "#ffffff",
       "color": "#343a40"
+    },
+    {
+      "title": "explainshell",
+      "description": "命令查询工具",
+      "href": "https://explainshell.com/",
+      "img": "explainshell-logo.png",
+      "color": "#ffffff"
+    },
+    {
+      "title": "Yarn",
+      "description": "包管理器",
+      "href": "https://yarnpkg.com/",
+      "img": "yarn-logo.svg"
+    },
+    {
+      "title": "npm",
+      "description": "包管理器",
+      "href": "https://www.npmjs.com/",
+      "img": "npm-logo.svg"
     }
   ]
 }

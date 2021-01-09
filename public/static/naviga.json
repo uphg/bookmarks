@@ -9,9 +9,10 @@
     },
     {
       "title": "Stack Overflow Trends",
-      "description": "Stack Overflow 提问关键词热度查看。",
+      "description": "Stack Overflow 提问关键词热度搜索。",
       "href": "https://insights.stackoverflow.com/trends",
       "text": "Stack Overflow",
+      "img": "stackoverflow-logo.svg",
       "color": "#fafafb"
     },
     {
