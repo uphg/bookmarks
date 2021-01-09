@@ -23,19 +23,6 @@
       "color": "#ff6600"
     },
     {
-      "title": "酷壳",
-      "description": "作者：陈皓，质量较高的个人博客。",
-      "href": "https://coolshell.cn/",
-      "img": "coolshell_logo.png"
-    },
-    {
-      "title": "阮一峰的博客",
-      "description": "阮一峰的个人博客，持续更新但有广告。",
-      "href": "http://www.ruanyifeng.com/blog/",
-      "text": "阮一峰",
-      "color": "#f5f5d5"
-    },
-    {
       "title": "Ruby China",
       "description": "Ruby 社区，不止有 Ruby 的知识社区。",
       "href": "https://ruby-china.org/",
@@ -43,11 +30,24 @@
       "color": "#ffffff"
     },
     {
+      "title": "酷壳",
+      "description": "作者：陈皓，质量较高的个人博客。",
+      "href": "https://coolshell.cn/",
+      "img": "coolshell_logo.png"
+    },
+    {
       "title": "张鑫旭",
       "description": "CSS 大神，博客有技术也有水文，比较杂。",
       "href": "https://www.zhangxinxu.com/",
       "img": "zhangxinxu-logo.jpg",
       "color": "#ffffff"
+    },
+    {
+      "title": "阮一峰的博客",
+      "description": "阮一峰的个人博客，持续更新但有广告。",
+      "href": "http://www.ruanyifeng.com/blog/",
+      "text": "阮一峰",
+      "color": "#f5f5d5"
     },
     {
       "title": "网道",
