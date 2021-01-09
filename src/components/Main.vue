@@ -7,6 +7,7 @@
         :title="value.title"
         :description="value.description"
         :img="value.img ? require(`@/assets/img/${value.img}`) : null"
+        :text="value.text"
         :color="value.color"
         :textColor="value.textColor"
         :type="cardType"

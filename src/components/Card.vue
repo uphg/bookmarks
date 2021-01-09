@@ -1,7 +1,11 @@
 <template>
   <a class="card box-stagger" :class="typeClass" :href="href" target="_blank">
     <div class="card-content">
-      <div class="card-image-block" :style="{ backgroundColor: color}">
+      <div
+        class="card-image-block"
+        :class="{'card-show-border': showBorder}"
+        :style="{ backgroundColor: color}"
+      >
         <el-image
           v-if="img"
           class="card-image-item"
@@ -18,7 +22,7 @@
           class="card-logo-text"
           :style="{color: textColor}"
           v-else
-        >{{title}}</div>
+        >{{text ? text : title}}</div>
       </div>
       <div class="card-text-block">
         <h2 class="card-title text-omit">{{ title }}</h2>
@@ -42,6 +46,10 @@ export default {
       type: String,
       default: require("@/assets/img/google-logo.png"),
     },
+    text: {
+      type: String,
+      default: null,
+    },
     description: {
       type: String,
       default: "谷歌搜索，国内不知名404小厂",
@@ -62,6 +70,9 @@ export default {
   computed: {
     typeClass() {
       return this.type === "vertical" ? "card-vertical" : "card-horizontal";
+    },
+    showBorder() {
+      return this.color === '#ffffff' ? true : false
     }
   },
 };
@@ -90,6 +101,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  &.card-show-border {
+    border: 1px solid #E4E7ED;
+  }
 }
 .card-image-item {
   height: 60px;

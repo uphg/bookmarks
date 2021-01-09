@@ -15,11 +15,44 @@
       "color": "#f6f6f6"
     },
     {
+      "title": "VuePress",
+      "description": "快速生成 Markdown 文档",
+      "href": "https://vuepress.vuejs.org/zh/",
+      "img": "vuepress-logo.png",
+      "color": "#ffffff"
+    },
+    {
       "title": "React",
       "description": "React 官方中文文档",
       "href": "https://zh-hans.reactjs.org/",
       "img": "react-logo.svg",
       "color": "#20232a"
+    },
+    {
+      "title": "Electron",
+      "description": "使用 JavaScript 构建桌面应用程序",
+      "href": "https://www.electronjs.org/",
+      "github": "https://github.com/electron",
+      "img": "electron-logo.svg",
+      "color": "#2f3241"
+    },
+    {
+      "title": "UmiJS",
+      "description": "前端应用框架。",
+      "href": "https://umijs.org/zh-CN",
+      "img": "umi-logo.png"
+    },
+    {
+      "title": "dumi",
+      "description": "快速搭建文档。",
+      "href": "https://d.umijs.org/zh-CN",
+      "img": "umi-logo.png"
+    },
+    {
+      "title": "Flutter",
+      "description": "Flutter 官方地址",
+      "href": "https://flutter.dev/",
+      "img": "flutter-logo.png"
     },
     {
       "title": "Angular",
@@ -29,10 +62,11 @@
       "color": "#1759b1"
     },
     {
-      "title": "Flutter",
-      "description": "Flutter 官方地址",
-      "href": "https://flutter.dev/",
-      "img": "flutter-logo.png"
+      "title": "uni-app",
+      "description": "快速创建多端的前端应用。",
+      "href": "https://uniapp.dcloud.io/",
+      "github": "https://github.com/dcloudio/uni-app",
+      "img": "uniapp-logo.png"
     }
   ]
 }

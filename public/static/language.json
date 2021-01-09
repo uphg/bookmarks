@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "title": "JavaScript",
+      "description": "JavaScript 是世界上最好的语言。",
+      "href": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
+      "textColor": "#ffffff",
+      "color": "#ffca26"
+    },
+    {
+      "title": "TypeScript",
+      "description": "JavaScript 的超集，强类型的 JavaScript 。",
+      "href": "https://www.typescriptlang.org/zh/",
+      "img": "typescript-logo.svg",
+      "color": "#3178c6"
+    },
+    {
+      "title": "Dart",
+      "description": "Google 曾经试图用它代替 JS，但是由于 Node.js 的崛起，JS 又重获新生。",
+      "href": "https://dart.dev/",
+      "img": "dart-logo.svg",
+      "color": "#1c2834"
+    }
+  ]
+}

@@ -8,7 +8,9 @@
       <div class="navbar-title">
         <el-dropdown trigger="click" placement="bottom">
           <span class="el-dropdown-link">
-            <span class="navbar-icon-down"><i class="el-icon-arrow-down el-icon--left"></i></span>
+            <span class="navbar-icon-down"
+              ><i class="el-icon-arrow-down el-icon--left"></i
+            ></span>
             <span>{{ title }}</span>
           </span>
           <el-dropdown-menu slot="dropdown" class="navbar-dropdown-menu">
@@ -16,7 +18,8 @@
               v-for="(value, key) in titleList"
               :key="key"
               @click.native="clickDropdown(value, key)"
-            >{{ value.title }}</el-dropdown-item>
+              >{{ value.title }}</el-dropdown-item
+            >
           </el-dropdown-menu>
         </el-dropdown>
       </div>

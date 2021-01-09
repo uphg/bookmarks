@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "title": "GitHub Trending",
+      "description": "GitHub 最近热门的一些项目 / 程序员。",
+      "href": "https://github.com/trending",
+      "img": "github-light.svg",
+      "color": "#24292e"
+    },
+    {
+      "title": "Stack Overflow Trends",
+      "description": "Stack Overflow 提问关键词热度查看。",
+      "href": "https://insights.stackoverflow.com/trends",
+      "text": "Stack Overflow",
+      "color": "#fafafb"
+    },
+    {
+      "title": "HackerNews over 200",
+      "description": "这个网页会显示点赞超过 200 的主题。",
+      "href": "https://news.ycombinator.com/over?points=200",
+      "textColor": "#ffffff",
+      "text": "Y",
+      "color": "#ff6600"
+    },
+    {
+      "title": "酷壳",
+      "description": "作者：陈皓，质量较高的个人博客。",
+      "href": "https://coolshell.cn/",
+      "img": "coolshell_logo.png"
+    },
+    {
+      "title": "阮一峰的博客",
+      "description": "阮一峰的个人博客，持续更新但有广告。",
+      "href": "http://www.ruanyifeng.com/blog/",
+      "text": "阮一峰",
+      "color": "#f5f5d5"
+    },
+    {
+      "title": "Ruby China",
+      "description": "Ruby 社区，不止有 Ruby 的知识社区。",
+      "href": "https://ruby-china.org/",
+      "textColor": "#EB5424",
+      "color": "#ffffff"
+    },
+    {
+      "title": "张鑫旭",
+      "description": "CSS 大神，博客有技术也有水文，比较杂。",
+      "href": "https://www.zhangxinxu.com/",
+      "img": "zhangxinxu-logo.jpg",
+      "color": "#ffffff"
+    },
+    {
+      "title": "网道",
+      "description": "作者：阮一峰，提供互联网开发文档。",
+      "href": "https://wangdoc.com/",
+      "text": "Wangdoc",
+      "textColor": "#3273dc"
+    },
+    {
+      "title": "网道镜像",
+      "description": "搬运自阮一峰的网道（wangdoc）。",
+      "href": "https://uphg.gitee.io/wangdoc/",
+      "img": "wangdoc-logo.svg"
+    },
+    {
+      "title": "Color Hunt",
+      "description": "各种颜色的配色方案。",
+      "href": "https://colorhunt.co/",
+      "img": "colorhunt-logo.png"
+    },
+    {
+      "title": "Dribbble",
+      "description": "著名设计分享网站。",
+      "href": "https://dribbble.com/",
+      "img": "dribbble-logo.svg"
+    },
+    {
+      "title": "CSS-Tricks",
+      "description": "展示 CSS 各种特效，及写法。",
+      "href": "https://css-tricks.com/",
+      "textColor": "#ffffff",
+      "color": "#db4321"
+    }
+  ]
+}

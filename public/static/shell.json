@@ -9,7 +9,7 @@
     },
     {
       "title": "Node.js",
-      "description": "JavaScript 运行时",
+      "description": "JavaScript 运行环境，使 JavaScript 能够脱离浏览器运行。",
       "href": "https://nodejs.org/zh-cn/",
       "img": "node-logo.svg",
       "color": "#333333"
