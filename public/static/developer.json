@@ -1,6 +1,13 @@
 {
   "data": [
     {
+      "title": "explainshell",
+      "description": "命令查询工具",
+      "href": "https://explainshell.com/",
+      "img": "explainshell-logo.png",
+      "color": "#ffffff"
+    },
+    {
       "title": "LeanCloud",
       "description": "简单的在线后端接口生成器",
       "textColor": "#ffffff",
@@ -13,13 +20,6 @@
       "href": "https://sm.ms/",
       "textColor": "#ffffff",
       "color": "#343a40"
-    },
-    {
-      "title": "explainshell",
-      "description": "命令查询工具",
-      "href": "https://explainshell.com/",
-      "img": "explainshell-logo.png",
-      "color": "#ffffff"
     },
     {
       "title": "Yarn",

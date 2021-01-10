@@ -24,10 +24,6 @@ export default [
     href: "tool.json"
   },
   {
-    title: "命令行",
-    href: "shell.json"
-  },
-  {
     title: "编程语言",
     href: "language.json"
   },

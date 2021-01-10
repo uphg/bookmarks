@@ -81,7 +81,8 @@
       "title": "Flutter",
       "description": "Flutter 官方地址",
       "href": "https://flutter.dev/",
-      "img": "flutter-logo.png"
+      "img": "flutter-logo.png",
+      "color": "#ffffff"
     },
     {
       "title": "Angular",

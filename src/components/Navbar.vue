@@ -1,28 +1,38 @@
 <template>
   <header class="navbar version-heart">
-    <div class="navbar-left">
-      <!-- <div class="navbar-logo">
-        <i class="el-icon-apple"></i>
-      </div>
-      <div class="divider"></div> -->
-      <div class="navbar-title">
-        <el-dropdown trigger="click" placement="bottom">
-          <span class="el-dropdown-link">
-            <span class="navbar-icon-down"
-              ><i class="el-icon-arrow-down el-icon--left"></i
-            ></span>
-            <span>{{ title }}</span>
-          </span>
-          <el-dropdown-menu slot="dropdown" class="navbar-dropdown-menu">
-            <el-dropdown-item
-              v-for="(value, key) in titleList"
-              :key="key"
-              @click.native="clickDropdown(value, key)"
-              >{{ value.title }}</el-dropdown-item
-            >
-          </el-dropdown-menu>
-        </el-dropdown>
-      </div>
+    <div
+      class="navbar-left"
+      @mouseover="showIconDown = true"
+      @mouseleave="showIconDown = false"
+    >
+      <el-dropdown
+        trigger="click"
+        placement="bottom"
+      >
+        <div class="nav-dropdown">
+          <div class="navbar-logo">
+            <transition name="component-fade" mode="out-in">
+              <!-- <i :key="leftIcon" :class="leftIcon"></i> -->
+              <component :is="leftIcon"></component>
+            </transition>
+          </div>
+          <div class="divider"></div>
+          <div class="navbar-title">
+            <span class="el-dropdown-link">{{ title }}</span>
+          </div>
+        </div>
+        <el-dropdown-menu
+          slot="dropdown"
+          class="navbar-dropdown-menu"
+        >
+          <el-dropdown-item
+            v-for="(value, key) in titleList"
+            :key="key"
+            @click.native="clickDropdown(value, key)"
+            >{{ value.title }}</el-dropdown-item
+          >
+        </el-dropdown-menu>
+      </el-dropdown>
     </div>
     <div class="navbar-setting">
       <i
@@ -35,19 +45,30 @@
 </template>
 <script>
 import bookMarks from "@/api/json-list.js";
+import NavIconBookmark from "./NavIconBookmark.vue"
+import NavIconDown from "./NavIconDown.vue"
 export default {
   inject: ["eventBus"],
+  components: {
+    'v-bookmark': NavIconBookmark,
+    'v-down': NavIconDown,
+  },
   data() {
     return {
       settingStatus: false,
       index: 0,
       titleList: bookMarks,
+      showIconDown: false,
     };
   },
   computed: {
     title() {
       return bookMarks[this.index].title;
     },
+    leftIcon() {
+      // return this.showIconDown ? 'el-icon-arrow-down' : 'el-icon-collection-tag'
+      return this.showIconDown ? 'v-down' : 'v-bookmark'
+    }
   },
   mounted() {
     const index = Number(localStorage.getItem("bookmark-index-key")) || 0;
@@ -90,6 +111,7 @@ export default {
 }
 
 .navbar-left {
+  cursor: pointer;
   display: flex;
   align-items: center;
 }
@@ -113,5 +135,19 @@ export default {
 .el-dropdown-link {
   cursor: pointer;
   color: #002059;
+}
+.nav-dropdown {
+  display: flex;
+  &:focus {
+    outline: none;
+  }
+}
+
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active for below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

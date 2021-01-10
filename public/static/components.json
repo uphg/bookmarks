@@ -2,34 +2,41 @@
   "data": [
     {
       "title": "Element UI",
-      "description": "Element 基于 Vue 2.0 的桌面端组件库",
+      "description": "基于 Vue 2.0 的桌面端组件库。",
       "href": "https://element.eleme.cn/#/zh-CN",
       "img": "element-logo.svg",
       "color": "#ecf5ff"
     },
     {
+      "title": "Ant Design",
+      "description": "React 组件库。",
+      "href": "https://ant.design/index-cn",
+      "img": "ant-design-logo.svg",
+      "color": "#f2f8fe"
+    },
+    {
+      "title": "Ant Design Vue",
+      "description": "Ant Design 的 Vue 版组件库。",
+      "href": "https://antdv.com/docs/vue/introduce-cn/",
+      "img": "ant-design-vue-logo.svg",
+      "color": "#f2f8fe"
+    },
+    {
       "title": "Vant",
-      "description": "Vant 轻量、可靠的移动端 Vue 组件库",
+      "description": "Vant 轻量的移动端 Vue 组件库，包括小程序等。",
       "href": "https://youzan.github.io/vant/#/zh-CN/",
       "img": "vant-logo.png",
       "color": "#001938"
     },
     {
-      "title": "AT UIKIT",
-      "description": "一款轻量级、模块化的前端 UI 组件库",
-      "href": "https://at-ui.github.io/at-ui/#/zh",
-      "img": "at-uikit-logo.png",
-      "color": "#f8faff"
-    },
-    {
       "title": "Vuetify",
-      "description": "自定义性很强的 Vue 组件库",
+      "description": "自定义性很强的 Vue 组件库。",
       "href": "https://vuetifyjs.com/en/",
       "img": "vuetify-logo-light.svg"
     },
     {
       "title": "Quasar",
-      "description": "UI组件很全面的 Vue 库",
+      "description": "UI 组件很全面的 Vue 库。",
       "href": "https://quasar.dev/",
       "img": "quasar-logo.svg",
       "color": "#0a0a0a"
@@ -39,20 +46,6 @@
       "description": "支持 Vue、React、原生 JS 的组件库，并且兼容移动端",
       "href": "https://framework7.io/",
       "img": "framework7-logo.svg",
-      "color": "#f2f8fe"
-    },
-    {
-      "title": "Ant Design",
-      "description": "React 组件库",
-      "href": "https://ant.design/index-cn",
-      "img": "ant-design-logo.svg",
-      "color": "#f2f8fe"
-    },
-    {
-      "title": "Ant Design Vue",
-      "description": "Ant Design 的 Vue 版组件库",
-      "href": "https://antdv.com/docs/vue/introduce-cn/",
-      "img": "ant-design-vue-logo.svg",
       "color": "#f2f8fe"
     },
     {
@@ -72,8 +65,16 @@
     },
     {
       "title": "Layui",
-      "description": "基于 jQuery 的 UI 框架",
+      "description": "基于 jQuery 的 UI 框架，可参考，不实用。",
       "href": "https://www.layui.com/"
+    },
+    {
+      "title": "AT UIKIT",
+      "description": "基于 Vue UI 组件库（已过时）。",
+      "href": "https://at-ui.github.io/at-ui/#/zh",
+      "img": "at-uikit-logo.png",
+      "textColor": "#6a737d",
+      "color": "#f8faff"
     }
   ]
 }

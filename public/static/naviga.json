@@ -34,7 +34,8 @@
       "title": "酷壳",
       "description": "作者：陈皓，质量较高的个人博客。",
       "href": "https://coolshell.cn/",
-      "img": "coolshell_logo.png"
+      "img": "coolshell_logo.png",
+      "color": "#ffffff"
     },
     {
       "title": "张鑫旭",
@@ -55,25 +56,29 @@
       "description": "作者：阮一峰，提供互联网开发文档。",
       "href": "https://wangdoc.com/",
       "text": "Wangdoc",
-      "textColor": "#3273dc"
+      "textColor": "#3273dc",
+      "color": "#ffffff"
     },
     {
       "title": "网道镜像",
       "description": "搬运自阮一峰的网道（wangdoc）。",
       "href": "https://uphg.gitee.io/wangdoc/",
-      "img": "wangdoc-logo.svg"
+      "img": "wangdoc-logo.svg",
+      "color": "#ffffff"
     },
     {
       "title": "Color Hunt",
       "description": "各种颜色的配色方案。",
       "href": "https://colorhunt.co/",
-      "img": "colorhunt-logo.png"
+      "img": "colorhunt-logo.png",
+      "color": "#ffffff"
     },
     {
       "title": "Dribbble",
       "description": "著名设计分享网站。",
       "href": "https://dribbble.com/",
-      "img": "dribbble-logo.svg"
+      "img": "dribbble-logo.svg",
+      "color": "#ffffff"
     },
     {
       "title": "CSS-Tricks",
