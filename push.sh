@@ -5,10 +5,10 @@ parame=$1
 fi
 
 echo -e "\n== commit =="
-echo "${parame}"
+echo " + ${parame}"
 git add .
 git commit -m "${parame}"
-echo "== commit end ==\n"
+echo -e "== commit end ==\n"
 echo "== GitHub =="
 git push github master:master
 echo -e "== GitHub end ==\n"
