@@ -5,7 +5,6 @@ parame=$1
 fi
 
 echo -e "\n== commit =="
-echo " + ${parame}"
 git add .
 git commit -m "${parame}"
 echo -e "== commit end ==\n"
