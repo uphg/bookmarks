@@ -4,11 +4,14 @@ else
 parame=$1
 fi
 
-echo "# 提交代码"
+echo -e "\n== commit =="
+echo "${parame}"
 git add .
 git commit -m "${parame}"
-
-echo "# 上传至Github:"
+echo "== commit end ==\n"
+echo "== GitHub =="
 git push github master:master
-echo "# 上传至码云"
+echo -e "== GitHub end ==\n"
+echo "== Gitee ==="
 git push gitee master:master
+echo -e "== Gitee ==\n"
