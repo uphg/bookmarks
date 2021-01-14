@@ -1,7 +1,7 @@
 <template>
   <div id="app" :class="{ dark: themeType === 'dark' }">
     <el-scrollbar wrap-class="scrollbar-wrapper">
-      <div class="box-stagger" style="display: none; transition: ease 0s"></div>
+      <!-- <div class="box-stagger" style="display: none; transition: ease 0s"></div> -->
       <div class="box-stagger navbar-transition">
         <Navbar />
       </div>
@@ -62,6 +62,7 @@ export default {
   overflow-x: hidden !important;
 }
 .navbar-transition {
+  display: none;
   max-width: 956px;
   height: 50px;
   margin: 36px auto;

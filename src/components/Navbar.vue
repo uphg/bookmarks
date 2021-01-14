@@ -12,7 +12,6 @@
         <div class="nav-dropdown">
           <div class="navbar-logo">
             <transition name="component-fade" mode="out-in">
-              <!-- <i :key="leftIcon" :class="leftIcon"></i> -->
               <component :is="leftIcon"></component>
             </transition>
           </div>

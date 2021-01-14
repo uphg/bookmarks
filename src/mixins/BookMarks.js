@@ -27,8 +27,6 @@ export default {
     initData() {
       this.$set(this, 'cardIndex', Number(localStorage.getItem('bookmark-index-key')) || 0)
       this.$set(this, 'cardType', localStorage.getItem('bookmark-type-key') || 'horizontal')
-      // this.cardIndex = Number(localStorage.getItem('bookmark-index-key')) || 0
-      // this.cardType = localStorage.getItem('bookmark-type-key') || 'horizontal'
     },
     monitor() {
       /* 监听书签卡片展示类型的变化 */
@@ -57,6 +55,8 @@ export default {
     },
     /* 添加过渡动画 */
     loadingTransition() {
+      const navbar = document.querySelector('.navbar-transition')
+      navbar.style.display = 'block'
       const elements = document.querySelectorAll(".box-stagger")
       Velocity(elements, "transition.slideLeftBigIn", { stagger: 100 })
     },
