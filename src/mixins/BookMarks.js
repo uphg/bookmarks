@@ -1,7 +1,7 @@
 import { getFun } from "@/api/request.js"
 import jsonList from "@/api/json-list.js"
 export default {
-  inject: ['eventBus', 'showNavbar'],
+  inject: ['eventBus', /* 'showNavbar' */],
   data() {
     return {
       type: null,
@@ -57,7 +57,7 @@ export default {
     /* 添加过渡动画 */
     loadingTransition() {
       this.$nextTick(() => {
-        this.showNavbar()
+        // this.showNavbar()
         const elements = document.querySelectorAll(".box-stagger")
         Velocity(elements, "transition.slideLeftBigIn", { stagger: 100 })
       })
