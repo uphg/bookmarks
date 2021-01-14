@@ -2,7 +2,7 @@
   <div id="app" :class="{ dark: themeType === 'dark' }">
     <el-scrollbar wrap-class="scrollbar-wrapper">
       <!-- <div class="box-stagger" style="display: none; transition: ease 0s"></div> -->
-      <div class="box-stagger navbar-transition">
+      <div class="box-stagger navbar-transition" :class="{'show-navbar': navbarStatus}">
         <Navbar />
       </div>
       <Main />
@@ -23,11 +23,13 @@ export default {
     return {
       eventBus: new Vue(),
       themeType: "light",
+      navbarStatus: false
     };
   },
   provide() {
     return {
       eventBus: this.eventBus,
+      showNavbar: this.showNavbar
     };
   },
   mounted() {
@@ -43,6 +45,12 @@ export default {
     getLocal(name) {
       return localStorage.getItem(name);
     },
+    showNavbar() {
+      this.navbarStatus = true
+    },
+    hideNavbar() {
+      this.navbarStatus = false
+    }
   },
 };
 </script>
@@ -66,5 +74,8 @@ export default {
   max-width: 956px;
   height: 50px;
   margin: 36px auto;
+}
+.show-navbar {
+  display: block;
 }
 </style>

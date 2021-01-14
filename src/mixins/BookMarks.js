@@ -1,7 +1,7 @@
 import { getFun } from "@/api/request.js"
 import jsonList from "@/api/json-list.js"
 export default {
-  inject: ['eventBus'],
+  inject: ['eventBus', 'showNavbar'],
   data() {
     return {
       type: null,
@@ -46,22 +46,24 @@ export default {
       getFun(this.dataUrl).then((response) => {
         this.marksList = response.data
         if (status) {
-          this.$nextTick(() => { this.loadingTransition(status) })
+          this.loadingTransition(status)
         }
       }).catch((error) => {
         console.log("# error")
         console.log(error)
+        this.loadingTransition(status)
       })
     },
     /* 添加过渡动画 */
     loadingTransition() {
-      const navbar = document.querySelector('.navbar-transition')
-      navbar.style.display = 'block'
-      const elements = document.querySelectorAll(".box-stagger")
-      Velocity(elements, "transition.slideLeftBigIn", { stagger: 100 })
+      this.$nextTick(() => {
+        this.showNavbar()
+        const elements = document.querySelectorAll(".box-stagger")
+        Velocity(elements, "transition.slideLeftBigIn", { stagger: 100 })
+      })
     },
     refreshKey(value) {
-      this.contentKey = value + String(Math.abs(Math.random()*1000))
+      this.contentKey = value + String(Math.abs(Math.random() * 1000))
     }
   }
 }
