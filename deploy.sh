@@ -15,7 +15,7 @@ echo -e "\n== commit =="
 git init
 git add -A
 git commit -m 'deploy'
-echo "== commit end ==\n"
+echo -e "== commit end ==\n"
 echo "== GitHub =="
 git push -f git@github.com:uphg/bookmarks.git master:gh-pages
 echo -e "== GitHub end ==\n"
