@@ -2,12 +2,12 @@
   <header class="navbar version-heart">
     <div
       class="navbar-left"
-      @mouseover="showIconDown = true"
-      @mouseleave="showIconDown = false"
     >
       <el-dropdown
         trigger="click"
         placement="bottom"
+        @command="handleCommand"
+        @visible-change="handleVisible"
       >
         <div class="nav-dropdown">
           <div class="navbar-logo">
@@ -27,7 +27,7 @@
           <el-dropdown-item
             v-for="(value, key) in titleList"
             :key="key"
-            @click.native="clickDropdown(value, key)"
+            :command="key"
             >{{ value.title }}</el-dropdown-item
           >
         </el-dropdown-menu>
@@ -65,7 +65,6 @@ export default {
       return bookMarks[this.index].title;
     },
     leftIcon() {
-      // return this.showIconDown ? 'el-icon-arrow-down' : 'el-icon-collection-tag'
       return this.showIconDown ? 'v-down' : 'v-bookmark'
     }
   },
@@ -75,24 +74,27 @@ export default {
     this.initStatus();
   },
   methods: {
+    // 监听抽屉状态变化
     initStatus() {
       this.eventBus.$on("data-setting-close", (status) => {
         this.settingStatus = status;
       });
     },
+    // 打开右侧设置抽屉
     openSetting() {
       this.eventBus.$emit("data-setting-status", true);
       this.settingStatus = true;
     },
-    clickDropdown(value, index) {
-      console.log("# value");
-      console.log(value);
-      console.log("# index");
-      console.log(index);
+    // 点击下拉触发
+    handleCommand(index) {
       this.index = index;
       this.eventBus.$emit("data-card-index", index || 0);
       localStorage.setItem("bookmark-index-key", index);
     },
+    // 下拉菜单的 显示/隐藏 回调函数
+    handleVisible(status) {
+      this.showIconDown = status
+    }
   },
 };
 </script>
@@ -100,7 +102,6 @@ export default {
 .navbar {
   padding: 0 10px;
   min-height: 50px;
-  // margin: 36px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -143,7 +144,7 @@ export default {
 }
 
 .component-fade-enter-active, .component-fade-leave-active {
-  transition: opacity .3s ease;
+  transition: opacity .2s ease;
 }
 .component-fade-enter, .component-fade-leave-to
 /* .component-fade-leave-active for below version 2.1.8 */ {
