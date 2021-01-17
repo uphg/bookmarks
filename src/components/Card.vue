@@ -36,7 +36,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "谷歌搜索",
+      default: "默认标题",
     },
     href: {
       type: String,
@@ -52,7 +52,7 @@ export default {
     },
     description: {
       type: String,
-      default: "谷歌搜索，国内不知名404小厂",
+      default: "你的描述不见了哦",
     },
     type: {
       type: String,
@@ -116,7 +116,6 @@ export default {
   font-size: 24px;
   line-height: 36px;
   height: 36px;
-  // line-height: 1;
   color: #002059;
 }
 .card-description {
@@ -141,8 +140,6 @@ export default {
   }
   .card-title {
     margin-top: 8px;
-    // margin-bottom: 10px;
-    // padding-top: 12px;
   }
 }
 .card-vertical {
@@ -153,7 +150,6 @@ export default {
   .card-text-block {
     flex-grow: 1;
     display: flex;
-    // justify-content: space-between;
     align-items: center;
     padding-left: 36px;
   }
