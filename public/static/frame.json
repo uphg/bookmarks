@@ -22,6 +22,13 @@
       "color": "#ffffff"
     },
     {
+      "title": "VuePress 3.0",
+      "description": "Vue 3.0 重构版 VuePress",
+      "href": "https://github.com/vuepress/vuepress-next",
+      "img": "vuepress-logo.png",
+      "color": "#ffffff"
+    },
+    {
       "title": "React",
       "description": "React 官方中文文档",
       "href": "https://zh-hans.reactjs.org/",
