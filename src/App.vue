@@ -1,7 +1,6 @@
 <template>
   <div id="app" :class="{ dark: themeType === 'dark' }">
     <el-scrollbar wrap-class="scrollbar-wrapper">
-      <!-- <div class="box-stagger navbar-transition" :class="{'show-navbar': navbarStatus}"> -->
       <div class="box-stagger navbar-transition">
         <Navbar />
       </div>
@@ -29,7 +28,6 @@ export default {
   provide() {
     return {
       eventBus: this.eventBus,
-      // showNavbar: this.showNavbar
     };
   },
   mounted() {
@@ -45,12 +43,6 @@ export default {
     getLocal(name) {
       return localStorage.getItem(name);
     }
-    // showNavbar() {
-    //   this.navbarStatus = true
-    // },
-    // hideNavbar() {
-    //   this.navbarStatus = false
-    // }
   },
 };
 </script>
@@ -75,7 +67,4 @@ export default {
   height: 50px;
   margin: 36px auto;
 }
-// .show-navbar {
-//   display: block;
-// }
 </style>
