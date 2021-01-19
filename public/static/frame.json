@@ -15,20 +15,6 @@
       "color": "#f6f6f6"
     },
     {
-      "title": "VuePress",
-      "description": "快速生成 Markdown 文档",
-      "href": "https://vuepress.vuejs.org/zh/",
-      "img": "vuepress-logo.png",
-      "color": "#ffffff"
-    },
-    {
-      "title": "VuePress 3.0",
-      "description": "Vue 3.0 重构版 VuePress",
-      "href": "https://github.com/vuepress/vuepress-next",
-      "img": "vuepress-logo.png",
-      "color": "#ffffff"
-    },
-    {
       "title": "React",
       "description": "React 官方中文文档",
       "href": "https://zh-hans.reactjs.org/",
@@ -76,6 +62,35 @@
       "description": "快速搭建文档。",
       "href": "https://d.umijs.org/zh-CN",
       "img": "umi-logo.png"
+    },
+    {
+      "title": "VuePress",
+      "description": "快速生成 Markdown 文档",
+      "href": "https://vuepress.vuejs.org/zh/",
+      "img": "vuepress-logo.png",
+      "color": "#ffffff"
+    },
+    {
+      "title": "VuePress 3.0",
+      "description": "Vue 3.0 重构版 VuePress",
+      "href": "https://github.com/vuepress/vuepress-next",
+      "img": "vuepress-logo.png",
+      "color": "#ffffff"
+    },
+    {
+      
+      "title": "Vite.js",
+      "description": "Vue 命令行工具",
+      "href": "https://github.com/vitejs/vite",
+      "img": "vue-logo-3.svg",
+      "color": "#ffffff"
+    },
+    {
+      "title": "VitePress 3.0",
+      "description": "VitePress 是 VuePress 的弟弟，使用 Vite 搭建。",
+      "href": "https://vitepress.vuejs.org/",
+      "img": "vuepress-logo.png",
+      "color": "#ffffff"
     },
     {
       "title": "uni-app",
