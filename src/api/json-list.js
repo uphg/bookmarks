@@ -16,7 +16,7 @@ export default [
     href: "components.json"
   },
   {
-    title: "资源 / 教程",
+    title: "教程 / 博客",
     href: "resources.json"
   },
   {

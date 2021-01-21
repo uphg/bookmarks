@@ -1,6 +1,42 @@
 {
   "data": [
     {
+      "title": "阮一峰的博客",
+      "description": "阮一峰的个人博客，持续更新但有广告。",
+      "href": "http://www.ruanyifeng.com/blog/",
+      "text": "阮一峰",
+      "color": "#f5f5d5"
+    },
+    {
+      "title": "网道",
+      "description": "作者：阮一峰，提供互联网开发文档。",
+      "href": "https://wangdoc.com/",
+      "text": "Wangdoc",
+      "textColor": "#3273dc",
+      "color": "#ffffff"
+    },
+    {
+      "title": "网道镜像",
+      "description": "搬运自阮一峰的网道（wangdoc）。",
+      "href": "https://uphg.gitee.io/wangdoc/",
+      "img": "wangdoc-logo.svg",
+      "color": "#ffffff"
+    },
+    {
+      "title": "酷壳",
+      "description": "作者：陈皓，质量较高的个人博客。",
+      "href": "https://coolshell.cn/",
+      "img": "coolshell_logo.png",
+      "color": "#ffffff"
+    },
+    {
+      "title": "张鑫旭",
+      "description": "CSS 大神，博客有技术也有水文，比较杂。",
+      "href": "https://www.zhangxinxu.com/",
+      "img": "zhangxinxu-logo.jpg",
+      "color": "#ffffff"
+    },
+    {
       "title": "优质的中文前端博客",
       "description": "作者：方应航（不定时更新）。",
       "href": "https://github.com/FrankFang/best-chinese-front-end-blogs",
