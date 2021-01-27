@@ -30,6 +30,13 @@
       "color": "#2f3241"
     },
     {
+      "title": "TypeScript",
+      "description": "JavaScript 的超集，强类型的 JavaScript 。",
+      "href": "https://www.typescriptlang.org/zh/",
+      "img": "typescript-logo.svg",
+      "color": "#3178c6"
+    },
+    {
       "title": "Node.js",
       "description": "JavaScript 运行环境，使 JavaScript 能够脱离浏览器运行。",
       "href": "https://nodejs.org/zh-cn/",

@@ -24,10 +24,6 @@ export default [
     href: "tool.json"
   },
   {
-    title: "编程语言",
-    href: "language.json"
-  },
-  {
     title: "开发者",
     href: "developer.json"
   }
