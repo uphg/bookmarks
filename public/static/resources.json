@@ -16,13 +16,6 @@
       "color": "#ffffff"
     },
     {
-      "title": "网道镜像",
-      "description": "搬运自阮一峰的网道（wangdoc）。",
-      "href": "https://uphg.gitee.io/wangdoc/",
-      "img": "wangdoc-logo.svg",
-      "color": "#ffffff"
-    },
-    {
       "title": "酷壳",
       "description": "作者：陈皓，质量较高的个人博客。",
       "href": "https://coolshell.cn/",

@@ -16,6 +16,10 @@ export default [
     href: "components.json"
   },
   {
+    title: "我的项目",
+    href: "uphg.json"
+  },
+  {
     title: "教程 / 博客",
     href: "resources.json"
   },
