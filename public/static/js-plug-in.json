@@ -53,6 +53,12 @@
       "color": "#ffffff"
     },
     {
+      "title": "tailwindcss",
+      "description": "CSS class 名库，通过只写 class 名称来添加 CSS 样式",
+      "href": "https://tailwindcss.com/",
+      "color": "#111725"
+    },
+    {
       "title": "Moment.js",
       "description": "JavaScript 时间库，用于格式化时间。",
       "href": "https://momentjs.com/",
