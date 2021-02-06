@@ -53,12 +53,6 @@
       "color": "#ffffff"
     },
     {
-      "title": "tailwindcss",
-      "description": "CSS class 名库，通过只写 class 名称来添加 CSS 样式",
-      "href": "https://tailwindcss.com/",
-      "color": "#111725"
-    },
-    {
       "title": "Moment.js",
       "description": "JavaScript 时间库，用于格式化时间。",
       "href": "https://momentjs.com/",
@@ -115,9 +109,21 @@
       "img": "immer-logo.svg"
     },
     {
+      "title": "Better Scroll",
+      "description": "原生 JS 滚动条插件",
+      "href": "https://github.com/ustbhuangyi/better-scroll/blob/master/README_zh-CN.md",
+      "img": "better-scroll-logo.svg"
+    },
+    {
       "title": "Immutable",
       "description": "JS 深拷贝插件",
       "href": "https://github.com/immutable-js/immutable-js"
+    },
+    {
+      "title": "tailwindcss",
+      "description": "CSS class 名库，通过只写 class 名称来添加 CSS 样式",
+      "href": "https://tailwindcss.com/",
+      "color": "#111725"
     },
     {
       "title": "Hover.css",
