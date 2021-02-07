@@ -53,6 +53,13 @@
       "color": "#ffffff"
     },
     {
+      "title": "Underscore.js",
+      "description": "JavaScript 常用方法库。",
+      "href": "https://underscorejs.org/",
+      "color": "#002a41",
+      "textColor": "#0071b5"
+    },
+    {
       "title": "Moment.js",
       "description": "JavaScript 时间库，用于格式化时间。",
       "href": "https://momentjs.com/",
