@@ -1,0 +1,9 @@
+# 常用网站
+
+## 最常用
+
+<a class="bookmarks-item" href="https://www.bilibili.com/" target="_blank"><LinkIcon link="https://www.bilibili.com/"/><h3 class="text" id="哔哩哔哩" tabindex="-1">哔哩哔哩<a class="header-anchor" style="display: none;" href="#哔哩哔哩" aria-label="Permalink to &quot;哔哩哔哩&quot;">​</a></h3></a><a class="bookmarks-item" href="https://www.notion.so/" target="_blank"><LinkIcon icon="https://www.notion.so/images/favicon.ico" link="https://www.notion.so/"/><h3 class="text" id="notion" tabindex="-1">Notion<a class="header-anchor" style="display: none;" href="#notion" aria-label="Permalink to &quot;Notion&quot;">​</a></h3></a><a class="bookmarks-item" href="https://poe.com/ChatGPT" target="_blank"><LinkIcon icon="https://psc2.cf2.poecdn.net/favicon.svg" link="https://poe.com/ChatGPT"/><h3 class="text" id="chatgpt-poe" tabindex="-1">ChatGPT - Poe<a class="header-anchor" style="display: none;" href="#chatgpt-poe" aria-label="Permalink to &quot;ChatGPT - Poe&quot;">​</a></h3></a>
+
+## React
+
+<a class="bookmarks-item" href="https://nextjs.org/" target="_blank"><LinkIcon link="https://nextjs.org/"/><h3 class="text" id="next-js" tabindex="-1">Next.js<a class="header-anchor" style="display: none;" href="#next-js" aria-label="Permalink to &quot;Next.js&quot;">​</a></h3></a><a class="bookmarks-item" href="https://www.cssmatic.com/box-shadow" target="_blank"><LinkIcon icon="https://www.cssmatic.com/box-shadow/img/favicon.png" link="https://www.cssmatic.com/box-shadow"/><h3 class="text" id="css-阴影生成器" tabindex="-1">CSS 阴影生成器<a class="header-anchor" style="display: none;" href="#css-阴影生成器" aria-label="Permalink to &quot;CSS 阴影生成器&quot;">​</a></h3></a>
