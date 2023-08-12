@@ -15,16 +15,25 @@ async function run() {
   if (fs.existsSync(srcDir)) {
     await fs.remove(srcDir)
   }
-
   fs.mkdir(srcDir, { recursive: true })
-
-  createGroup(data)
+  data.forEach((group) => {
+    createGroup(group.items)
+  })
 }
 
 function createGroup(data) {
   data.forEach(page => {
-    const groups = page.group.map(group => renderItem(group)).join('\n\n')
-    fs.writeFile(resolve(`./${page.fileName}.md`), `# ${page.title}\n\n${groups}`)
+    const content = page.items.map(item => renderItem(item)).join('\n\n')
+    fs.writeFile(
+      resolve(`./${page.fileName}.md`),
+      `# ${page.title}${page.description ? `\n\n${page.description}` : ''}\n\n${content}`,
+      (e) => {
+        if (e) {
+          console.error('createGroup writeFile Error:')
+          console.error(e)
+        }
+      }
+    )
   });
 }
 

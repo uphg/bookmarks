@@ -1,12 +1,13 @@
 <template>
   <div class="icon">
-    <span class="placeholder" v-if="isError">☁</span>
+    <Empty v-if="isError" class="placeholder"/>
     <img v-else class="icon-image" :src="_icon" @error="onError">
   </div>
 </template>
 
 <script lang="ts" setup>
 import { PropType, computed, ref } from 'vue';
+import Empty from './Empty.vue'
 
 const props = defineProps({
   icon: String as PropType<string>,
@@ -28,19 +29,3 @@ const onError = () => {
   isError.value = true
 }
 </script>
-
-<style scoped>
-.icon {
-  display: flex;
-}
-
-.placeholder, .icon-image {
-  width: 24px;
-  height: 24px;
-}
-
-.placeholder {
-  text-align: center;
-}
-
-</style>

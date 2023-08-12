@@ -1,66 +1,225 @@
-const data = [
+const Programming = [
   {
-    title: '常用网站',
+    title: '常用工具',
     fileName: 'index',
-    group: [
+    items: [
       {
-        title: '最常用',
+        title: 'Chat GPT',
         items: [
-          { text: '哔哩哔哩', link: 'https://www.bilibili.com/', },
-          // { text: 'Google 翻译', link: 'https://translate.google.com/?hl=zh-CN', icon: '//ssl.gstatic.com/translate/favicon.ico' },
-          { text: 'Notion', link: 'https://www.notion.so/', icon: 'https://www.notion.so/images/favicon.ico' },
-          { text: 'ChatGPT - Poe', link: 'https://poe.com/ChatGPT', icon: 'https://psc2.cf2.poecdn.net/favicon.svg' },
+          { text: 'ChatGPT', link: 'https://chat.openai.com/', icon: 'https://chat.openai.com/favicon-32x32.png' },
+          { text: 'Poe - ChatGPT', link: 'https://poe.com/ChatGPT', icon: 'https://psc2.cf2.poecdn.net/favicon.svg' },
+          { text: 'Bing AI', link: 'https://www.bing.com/search?form=MY0291&OCID=MY0291&q=Bing+AI&showconv=1' },
         ]
       },
       {
-        title: 'React',
+        title: '文档/笔记',
         items: [
+          { text: 'Notion', link: 'https://www.notion.so/', icon: 'https://www.notion.so/images/favicon.ico' },
+          { text: 'VitePress', link: 'https://vitepress.dev/', icon: 'https://vitepress.dev/vitepress-logo-mini.svg' },
+        ]
+      },
+      {
+        title: 'CSS 工具',
+        items: [
+          { text: "CSS 渐变生成器", link: "https://www.colorzilla.com/gradient-editor/",  },
+          { text: "CSS 阴影生成器", link: "https://www.cssmatic.com/box-shadow", icon: 'https://www.cssmatic.com/box-shadow/img/favicon.png' },
+          { text: "CSS 字体生成", link: "https://www.fontke.com/tool/fontface/" },
+        ]
+      },
+      {
+        title: '图片处理',
+        items: [
+          { text: "在线压缩 JPG", link: "https://compressjpeg.com/zh/", "img": "compressjpeg-logo.png", "color": "#ffffff" },
+          { text: "比特虫 - ico图标转换工具", link: "http://www.bitbug.net/" },
+        ]
+      },
+      {
+        title: '其他',
+        items: [
+          { text: "草料二维码", link: "https://cli.im/", },
+          { text: "在线屏幕检测", link: "https://screen.bmcx.com/#welcome" }
+        ]
+      },
+      {
+        title: 'GitHub 美化',
+        items: [
+          { text: 'BEPb/README.md - Github Profile', link: 'https://github.com/BEPb' },
+        ]
+      }
+    ]
+  },
+  {
+    title: '论坛/社区',
+    fileName: 'prog_forum',
+    items: [
+      {
+        title: '热点新闻',
+        items: [
+          { text: 'Hacker News', link: 'https://news.ycombinator.com/' },
+          { text: 'GitHub Trending', link: 'https://github.com/trending' },
+        ]
+      },
+      {
+        title: '论坛',
+        items: [
+          { text: 'V2EX', link: 'https://www.v2ex.com/' },
+          { text: 'Ruby China', link: 'https://ruby-china.org/', icon: '//l.ruby-china.com/photo/2016/c309db0b49cab85a32f756541ea0e2b0.png' },
+          { text: 'Product Hunt', link: 'https://www.producthunt.com/' }
+        ]
+      },
+    ]
+  },
+  {
+    title: 'Vanilla',
+    fileName: 'prog_vanilla',
+    items: [
+      {
+        title: '工具/函数库',
+        items: [
+          { text: 'Lodash', link: 'https://lodash.com/' },
+          { text: 'Ramda', link: 'https://ramdajs.com/' },
+          { text: 'Underscore', link: 'https://underscorejs.org/' },
+          { text: 'Math.js - 数学库', link: 'https://github.com/josdejong/mathjs' },
+          { text: 'Sugar - 内置对象拓展', link: 'https://github.com/andrewplummer/Sugar' },
+          { text: 'collect.js - 处理数组和对象', link: 'https://github.com/ecrmnn/collect.js/' },
+          { text: 'polished - CSS 样式语法拓展', link: 'https://github.com/styled-components/polished' },
+        ]
+      },
+      {
+        title: '日期/时间库',
+        items: [
+          { text: 'day.js', link: 'https://day.js.org/' },
+          { text: 'date-fns', link: 'https://date-fns.org/' },
+          { text: 'moment（停止更新）', link: 'https://github.com/moment/moment/'},
+        ]
+      },
+      {
+        title: '图表/3D',
+        items: [
+          { text: 'Chart.js', link: 'https://github.com/chartjs/Chart.js' },
+          { text: 'Echarts', link: 'https://github.com/apache/echarts' },
+          { text: 'D3', link: 'https://d3js.org/' },
+          { text: 'Three.js', link: 'https://threejs.org/' }
+        ]
+      },
+      {
+        title: '教程/书籍',
+        items: [
+          { text: '现代 JavaScript 教程', link: 'https://zh.javascript.info/' },
+          { text: 'JavaScript 教程 - 阮一峰', link: 'https://wangdoc.com/javascript/' },
+          { text: 'ES6 教程 - 阮一峰', link: 'https://wangdoc.com/es6/' }
+        ]
+      }
+    ]
+  },
+  {
+    title: '博客文章',
+    fileName: 'prog_post',
+    items: [
+      {
+        title: '掘金',
+        items: []
+      }
+    ]
+  },
+  {
+    title: '全栈开发',
+    fileName: 'prog_full-stack',
+    items: [
+      {
+        title: 'Node.js 全栈框架',
+        items: [
+          { text: 'Prisma - Node.js and TypeScript ORM', link: 'https://www.prisma.io/', icon: 'https://www.prisma.io/images/favicon-32x32.png' },
+          { text: 'tRPC', link: 'https://trpc.io/', icon: 'https://trpc.io/img/favicon.ico' },
           { text: 'Next.js', link: 'https://nextjs.org/' },
-          {
-            text: "CSS 阴影生成器",
-            link: "https://www.cssmatic.com/box-shadow",
-            icon: 'https://www.cssmatic.com/box-shadow/img/favicon.png'
-          },
+          { text: 'Nuxt.js', link: 'https://nuxt.com/', icon: 'https://nuxt.com/icon.png' }
+        ]
+      },
+      {
+        title: 'CSS 模块',
+        items: [
+          { text: 'unocss', link: 'https://github.com/unocss/unocss' },
+          { text: 'tailwindcss', link: 'https://tailwindcss.com/' },
         ]
       }
     ]
   },
   {
     title: 'Vue',
-    fileName: 'vue',
-    group: [
+    fileName: 'prog_vue',
+    items: [
       {
-        title: '组件库',
+        title: '官方生态',
         items: [
-          { text: 'Hacker News', link: 'https://news.ycombinator.com/' },
-          { text: 'V2EX', link: 'https://www.v2ex.com/' },
-          { text: 'Ruby China', link: 'https://ruby-china.org/', icon: '//l.ruby-china.com/photo/2016/c309db0b49cab85a32f756541ea0e2b0.png' },
-          { text: 'Product Hunt', link: 'https://www.producthunt.com/' },
+          { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
+          { text: 'Slidev - Markdown + Vue 演示幻灯片', link: 'https://sli.dev/' }
         ]
       },
       {
-        title: '最佳实践',
+        title: '组件库',
+        items: [
+          { text: 'headless', link: 'https://headlessui.com/' },
+        ]
+      }
+    ]
+  },
+  {
+    title: 'React',
+    fileName: 'prog_react',
+    items: [
+      {
+        title: '生态',
+        items: [
+          { text: 'reactivue - React 组件中使用 Vue Composition API', link: 'https://github.com/antfu/reactivue' },
+          { text: '', link: '' },
+        ]
+      },
+      {
+        title: '组件库',
+        items: [
+          { text: 'MUI', link: 'https://mui.com/' },
+          { text: 'Chakra UI', link: 'https://chakra-ui.com/' },
+          { text: 'MUI', link: 'https://mui.com/' },
+          { text: 'headless', link: 'https://headlessui.com/' }
+        ]
+      }
+    ]
+  }
+]
+
+const Other = [
+  {
+    title: '设计相关',
+    fileName: 'other_index',
+    items: [
+      {
+        title: '设计灵感',
         items: [
           { text: 'Dribbble', link: 'https://dribbble.com/', icon: 'https://cdn.dribbble.com/assets/dribbble-vector-ball-f320a6ba48a4ccf416ef6e396e204c899874565b694593834b6c23f978394498.svg' },
           { text: 'Designspiration', link: 'https://www.designspiration.com/' },
           { text: 'Behance', link: 'https://www.behance.net/' },
           { text: '站酷', link: 'https://www.zcool.com.cn/' }
         ]
-      }
-    ]
-  },
-  {
-    title: '全栈开发',
-    fileName: 'full-stack',
-    group: [
+      },
       {
-        title: '全栈框架',
+        title: '设计工具',
         items: [
-          { text: 'Prisma - Node.js and TypeScript ORM', link: 'https://www.prisma.io/', icon: 'https://www.prisma.io/images/favicon-32x32.png' },
-          { text: 'tRPC', link: 'https://trpc.io/', icon: 'https://trpc.io/img/favicon.ico' },
+          { text: 'Figma', link: 'https://www.figma.com/login' },
+          { text: '墨刀', link: 'https://modao.cc/design/ui-design-software.html' }
         ]
       }
     ]
+  }
+]
+
+const data = [
+  {
+    title: '编程导航',
+    items: Programming
+  },
+  {
+    title: '其他',
+    items: Other
   }
 ]
 

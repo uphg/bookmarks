@@ -31,13 +31,13 @@ export default defineConfig({
 })
 
 function createSidebar() {
-  return [
-    {
-      text: '常用书签',
-      items: data.map(item => ({
+  return data.map(group => {
+    return {
+      text: group.title,
+      items: group.items.map((item) => ({
         text: item.title,
         link: item.fileName === 'index' ? '/' : `/${item.fileName}`
       }))
     }
-  ]
+  })
 }

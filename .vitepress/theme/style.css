@@ -97,7 +97,7 @@
   margin: 4px 0;
   padding: 0 8px;
   font-size: 16px;
-  height: 40px;
+  height: 36px;
   display: flex;
   align-items: center;
   border-radius: 3px;
@@ -118,22 +118,29 @@
 }
 
 .bookmarks-item .icon {
+  width: 20px;
+  height: 20px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.bookmarks-item .placeholder,
 .bookmarks-item .icon-image {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
 }
 
 .bookmarks-item .placeholder {
+  width: 20px;
+  height: 20px;
+  color: var(--vp-c-text-3);
   text-align: center;
 }
 
 .vp-doc .bookmarks-item > .text {
+  font-weight: 400;
   margin: 0;
-  margin-left: 8px;
+  margin-left: 6px;
   letter-spacing: normal;
   line-height: inherit;
   font-size: inherit;
