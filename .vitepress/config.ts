@@ -3,9 +3,10 @@ import data from '../data'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: './posts',
+  base: '/bookmarks/',
   title: "My Bookmarks",
   description: "A Bookmarks",
+  srcDir: './posts',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
