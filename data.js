@@ -70,6 +70,46 @@ const Programming = [
     ]
   },
   {
+    title: '全栈开发',
+    fileName: 'prog_full-stack',
+    items: [
+      {
+        title: 'Node.js 全栈框架',
+        items: [
+          { text: 'Prisma - Node.js and TypeScript ORM', link: 'https://www.prisma.io/', icon: 'https://www.prisma.io/images/favicon-32x32.png' },
+          { text: 'tRPC', link: 'https://trpc.io/', icon: 'https://trpc.io/img/favicon.ico' },
+          { text: 'Next.js', link: 'https://nextjs.org/' },
+          { text: 'Nuxt.js', link: 'https://nuxt.com/', icon: 'https://nuxt.com/icon.png' }
+        ]
+      },
+      {
+        title: '打包工具',
+        items: [
+          { text: 'Vite', link: 'https://vitejs.dev/guide/' },
+          { text: 'webpack', link: 'https://webpack.js.org/' },
+          { text: 'Rollup', link: 'https://rollupjs.org/' },
+        ],
+      },
+      {
+        title: 'CSS 模块',
+        items: [
+          { text: 'unocss', link: 'https://github.com/unocss/unocss' },
+          { text: 'tailwindcss', link: 'https://tailwindcss.com/' },
+          { text: 'Stylus', link: 'https://github.com/stylus/stylus' },
+          { text: 'Sass', link: 'https://sass-lang.com/' },
+          { text: 'CSS Modules', link: 'https://github.com/css-modules/css-modules' },
+          { text: 'styled components', link: 'https://github.com/styled-components/styled-components' }
+        ]
+      },
+      {
+        title: 'Ruby',
+        items: [
+          { text: 'Rails', link: 'https://rubyonrails.org/' },
+        ]
+      }
+    ]
+  },
+  {
     title: 'Vanilla',
     fileName: 'prog_vanilla',
     items: [
@@ -109,50 +149,6 @@ const Programming = [
           { text: '现代 JavaScript 教程', link: 'https://zh.javascript.info/' },
           { text: 'JavaScript 教程 - 阮一峰', link: 'https://wangdoc.com/javascript/' },
           { text: 'ES6 教程 - 阮一峰', link: 'https://wangdoc.com/es6/' }
-        ]
-      }
-    ]
-  },
-  {
-    title: '博客文章',
-    fileName: 'prog_post',
-    items: [
-      {
-        title: '掘金',
-        items: []
-      }
-    ]
-  },
-  {
-    title: '全栈开发',
-    fileName: 'prog_full-stack',
-    items: [
-      {
-        title: 'Node.js 全栈框架',
-        items: [
-          { text: 'Prisma - Node.js and TypeScript ORM', link: 'https://www.prisma.io/', icon: 'https://www.prisma.io/images/favicon-32x32.png' },
-          { text: 'tRPC', link: 'https://trpc.io/', icon: 'https://trpc.io/img/favicon.ico' },
-          { text: 'Next.js', link: 'https://nextjs.org/' },
-          { text: 'Nuxt.js', link: 'https://nuxt.com/', icon: 'https://nuxt.com/icon.png' }
-        ]
-      },
-      {
-        title: '打包工具',
-        items: [
-          { text: 'Vite', link: 'https://vitejs.dev/guide/' },
-          { text: 'webpack', link: 'https://webpack.js.org/' },
-          { text: 'Rollup', link: 'https://rollupjs.org/' },
-        ],
-      },
-      {
-        title: 'CSS 模块',
-        items: [
-          { text: 'unocss', link: 'https://github.com/unocss/unocss' },
-          { text: 'tailwindcss', link: 'https://tailwindcss.com/' },
-          { text: 'Stylus', link: 'https://github.com/stylus/stylus' },
-          { text: 'Sass', link: 'https://sass-lang.com/' },
-          { text: 'CSS Modules', link: 'https://github.com/css-modules/css-modules' },
-          { text: 'styled components', link: 'https://github.com/styled-components/styled-components' }
         ]
       }
     ]
@@ -213,7 +209,17 @@ const Programming = [
         ]
       }
     ]
-  }
+  },
+  {
+    title: '博客文章',
+    fileName: 'prog_post',
+    items: [
+      {
+        title: '...',
+        items: []
+      }
+    ]
+  },
 ]
 
 const Other = [
