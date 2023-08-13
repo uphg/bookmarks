@@ -1,9 +1,0 @@
-# 论坛/社区
-
-## 热点新闻
-
-<a class="bookmarks-item" href="https://news.ycombinator.com/" target="_blank"><LinkIcon link="https://news.ycombinator.com/"/><h3 class="text" id="hacker-news" tabindex="-1">Hacker News<a class="header-anchor" style="display: none;" href="#hacker-news" aria-label="Permalink to &quot;Hacker News&quot;">​</a></h3></a><a class="bookmarks-item" href="https://github.com/trending" target="_blank"><LinkIcon link="https://github.com/trending"/><h3 class="text" id="github-trending" tabindex="-1">GitHub Trending<a class="header-anchor" style="display: none;" href="#github-trending" aria-label="Permalink to &quot;GitHub Trending&quot;">​</a></h3></a>
-
-## 论坛
-
-<a class="bookmarks-item" href="https://www.v2ex.com/" target="_blank"><LinkIcon link="https://www.v2ex.com/"/><h3 class="text" id="v2ex" tabindex="-1">V2EX<a class="header-anchor" style="display: none;" href="#v2ex" aria-label="Permalink to &quot;V2EX&quot;">​</a></h3></a><a class="bookmarks-item" href="https://ruby-china.org/" target="_blank"><LinkIcon icon="//l.ruby-china.com/photo/2016/c309db0b49cab85a32f756541ea0e2b0.png" link="https://ruby-china.org/"/><h3 class="text" id="ruby-china" tabindex="-1">Ruby China<a class="header-anchor" style="display: none;" href="#ruby-china" aria-label="Permalink to &quot;Ruby China&quot;">​</a></h3></a><a class="bookmarks-item" href="https://www.producthunt.com/" target="_blank"><LinkIcon link="https://www.producthunt.com/"/><h3 class="text" id="product-hunt" tabindex="-1">Product Hunt<a class="header-anchor" style="display: none;" href="#product-hunt" aria-label="Permalink to &quot;Product Hunt&quot;">​</a></h3></a>

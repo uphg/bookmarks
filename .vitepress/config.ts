@@ -3,9 +3,9 @@ import data from '../data'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: './src',
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  srcDir: './posts',
+  title: "My Bookmarks",
+  description: "A Bookmarks",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 

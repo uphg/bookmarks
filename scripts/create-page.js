@@ -6,16 +6,16 @@ import data from '../data.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const srcDir = path.resolve(__dirname, '../src')
-const resolve = (p) => path.resolve(srcDir, p)
+const distDir = path.resolve(__dirname, '../posts')
+const resolve = (p) => path.resolve(distDir, p)
 
 run()
 
 async function run() {
-  if (fs.existsSync(srcDir)) {
-    await fs.remove(srcDir)
+  if (fs.existsSync(distDir)) {
+    await fs.remove(distDir)
   }
-  fs.mkdir(srcDir, { recursive: true })
+  fs.mkdir(distDir, { recursive: true })
   data.forEach((group) => {
     createGroup(group.items)
   })
