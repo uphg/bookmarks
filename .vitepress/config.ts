@@ -25,7 +25,11 @@ export default defineConfig({
     ],
 
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        // detailed view will be disabled.
+        detailedView: false
+      }
     },
   }
 })

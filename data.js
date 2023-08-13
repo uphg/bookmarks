@@ -83,6 +83,7 @@ const Programming = [
           { text: 'Sugar - 内置对象拓展', link: 'https://github.com/andrewplummer/Sugar' },
           { text: 'collect.js - 处理数组和对象', link: 'https://github.com/ecrmnn/collect.js/' },
           { text: 'polished - CSS 样式语法拓展', link: 'https://github.com/styled-components/polished' },
+          { text: 'RxJS - JavaScript 响应式拓展', link: 'https://github.com/ReactiveX/rxjs' },
         ]
       },
       {
@@ -136,10 +137,22 @@ const Programming = [
         ]
       },
       {
+        title: '打包工具',
+        items: [
+          { text: 'Vite', link: 'https://vitejs.dev/guide/' },
+          { text: 'webpack', link: 'https://webpack.js.org/' },
+          { text: 'Rollup', link: 'https://rollupjs.org/' },
+        ],
+      },
+      {
         title: 'CSS 模块',
         items: [
           { text: 'unocss', link: 'https://github.com/unocss/unocss' },
           { text: 'tailwindcss', link: 'https://tailwindcss.com/' },
+          { text: 'Stylus', link: 'https://github.com/stylus/stylus' },
+          { text: 'Sass', link: 'https://sass-lang.com/' },
+          { text: 'CSS Modules', link: 'https://github.com/css-modules/css-modules' },
+          { text: 'styled components', link: 'https://github.com/styled-components/styled-components' }
         ]
       }
     ]
@@ -149,16 +162,23 @@ const Programming = [
     fileName: 'prog_vue',
     items: [
       {
-        title: '官方生态',
+        title: '工具库',
         items: [
           { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
+          { text: 'Vue Use', link: 'https://github.com/vueuse/vueuse' },
           { text: 'Slidev - Markdown + Vue 演示幻灯片', link: 'https://sli.dev/' }
         ]
       },
       {
         title: '组件库',
         items: [
+          { text: 'Naive UI', link: 'https://www.naiveui.com/' },
           { text: 'headless', link: 'https://headlessui.com/' },
+          { text: 'Vant', link: 'https://github.com/youzan/vant' },
+          { text: 'Element Plus', link: 'https://element-plus.org/' },
+          { text: 'Vuetify', link: 'https://vuetifyjs.com/en/' },
+          { text: 'Quasar', link: 'https://quasar.dev/' },
+          { text: 'Ant Design Vue', link: 'https://github.com/vueComponent/ant-design-vue/' }
         ]
       }
     ]
@@ -168,10 +188,13 @@ const Programming = [
     fileName: 'prog_react',
     items: [
       {
-        title: '生态',
+        title: '工具库',
         items: [
-          { text: 'reactivue - React 组件中使用 Vue Composition API', link: 'https://github.com/antfu/reactivue' },
-          { text: '', link: '' },
+
+          { text: 'React Use', link: 'https://github.com/streamich/react-use' },
+          { text: 'zustand - React 状态管理', link: 'https://zustand-demo.pmnd.rs/', icon: 'https://zustand-demo.pmnd.rs/favicon.ico' },
+          { text: 'dva', link: 'https://github.com/dvajs/dva' },
+          { text: 'reactivue - React 使用 Vue Composition API', link: 'https://github.com/antfu/reactivue' },
         ]
       },
       {
@@ -179,8 +202,14 @@ const Programming = [
         items: [
           { text: 'MUI', link: 'https://mui.com/' },
           { text: 'Chakra UI', link: 'https://chakra-ui.com/' },
-          { text: 'MUI', link: 'https://mui.com/' },
+          { text: 'Ant Design', link: 'https://ant.design/index-cn', icon: 'https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png' },
           { text: 'headless', link: 'https://headlessui.com/' }
+        ]
+      },
+      {
+        title: '文档',
+        items: [
+          { text: 'MDX - 在 Markdown 中写 JSX', link: 'https://mdxjs.com/docs/' }
         ]
       }
     ]

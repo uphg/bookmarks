@@ -21,8 +21,8 @@ async function run() {
   })
 }
 
-function createGroup(data) {
-  data.forEach(page => {
+function createGroup(pages) {
+  pages.forEach(page => {
     const content = page.items.map(item => renderItem(item)).join('\n\n')
     fs.writeFile(
       resolve(`./${page.fileName}.md`),
