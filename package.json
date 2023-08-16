@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node scripts/create-page.js & vitepress dev",
-    "build": "vitepress build",
+    "build": "node scripts/create-page.js & vitepress build",
     "preview": "vitepress preview"
   },
   "keywords": [],
