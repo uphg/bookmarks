@@ -102,6 +102,12 @@ const Programming = [
         ]
       },
       {
+        title: '前端模块',
+        items: [
+          { text: 'unhead - 设置网页 Head 头', link: 'https://github.com/unjs/unhead' },
+        ]
+      },
+      {
         title: 'Ruby',
         items: [
           { text: 'Rails', link: 'https://rubyonrails.org/' },
@@ -162,7 +168,12 @@ const Programming = [
         items: [
           { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
           { text: 'Vue Use', link: 'https://github.com/vueuse/vueuse' },
-          { text: 'Slidev - Markdown + Vue 演示幻灯片', link: 'https://sli.dev/' }
+          { text: 'Slidev - Markdown + Vue 演示幻灯片', link: 'https://sli.dev/' },
+          { text: 'vitesse', link: 'https://github.com/antfu/vitesse' },
+          { text: 'vite-plugin-pwa', link: 'https://github.com/vite-pwa/vite-plugin-pwa' },
+          { text: 'unplugin-auto-import - API 自动导入', link: 'https://github.com/antfu/unplugin-auto-import' },
+          { text: 'unplugin-vue-components', link: 'https://github.com/antfu/unplugin-vue-components' },
+          { text: 'unplugin-vue-router', link: 'https://github.com/posva/unplugin-vue-router' },
         ]
       },
       {
