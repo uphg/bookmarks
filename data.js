@@ -22,6 +22,7 @@ const Programming = [
         title: 'CSS 工具',
         items: [
           { text: "CSS 渐变生成器", link: "https://www.colorzilla.com/gradient-editor/",  },
+          { text: 'CSS 阴影生成', link: 'https://lingdaima.com/jianbianse/' },
           { text: "CSS 阴影生成器", link: "https://www.cssmatic.com/box-shadow", icon: 'https://www.cssmatic.com/box-shadow/img/favicon.png' },
           { text: "CSS 字体生成", link: "https://www.fontke.com/tool/fontface/" },
         ]
@@ -80,6 +81,15 @@ const Programming = [
           { text: 'tRPC', link: 'https://trpc.io/', icon: 'https://trpc.io/img/favicon.ico' },
           { text: 'Next.js', link: 'https://nextjs.org/' },
           { text: 'Nuxt.js', link: 'https://nuxt.com/', icon: 'https://nuxt.com/icon.png' }
+        ]
+      },
+      {
+        title: '多端框架',
+        items: [
+          { text: 'Tauri', link: 'https://tauri.app/' },
+          { text: 'Electron', link: 'https://electronjs.org/' },
+          { text: 'React Native', link: 'https://reactnative.dev/' },
+          { text: 'Flutter', link: 'https://flutter.dev/' }
         ]
       },
       {
