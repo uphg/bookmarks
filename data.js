@@ -16,6 +16,7 @@ const Programming = [
         items: [
           { text: 'Notion', link: 'https://www.notion.so/', icon: 'https://www.notion.so/images/favicon.ico' },
           { text: 'VitePress', link: 'https://vitepress.dev/', icon: 'https://vitepress.dev/vitepress-logo-mini.svg' },
+          { text: 'Mermaid - 使用 Markdown 语法创建图表', link: 'https://mermaid.js.org/' },
         ]
       },
       {
@@ -115,6 +116,8 @@ const Programming = [
         title: '前端模块',
         items: [
           { text: 'unhead - 设置网页 Head 头', link: 'https://github.com/unjs/unhead' },
+          { text: 'icones', link: 'https://icones.js.org/collection/all' },
+          { text: 'xicons', link: 'https://xicons.org/#/' }
         ]
       },
       {
@@ -140,6 +143,7 @@ const Programming = [
           { text: 'collect.js - 处理数组和对象', link: 'https://github.com/ecrmnn/collect.js/' },
           { text: 'polished - CSS 样式语法拓展', link: 'https://github.com/styled-components/polished' },
           { text: 'RxJS - JavaScript 响应式拓展', link: 'https://github.com/ReactiveX/rxjs' },
+          { text: 'immer', link: 'https://github.com/immerjs/immer', icon: 'https://github.githubassets.com/pinned-octocat.svg' }
         ]
       },
       {
@@ -236,8 +240,12 @@ const Programming = [
     fileName: 'prog_post',
     items: [
       {
-        title: '...',
-        items: []
+        title: '前端',
+        items: [
+          { text: '前端API数据RSA非对称加密方法总结', link: 'https://juejin.cn/post/7002058547395559438' },
+          { text: '使用非对称加密(RSA) 实现前端加密后端解密', link: 'https://www.jianshu.com/p/aea81f54caa1' },
+          { text: '基于VUE自定义指令实现按钮级权限控制', link: 'https://juejin.cn/post/6844903609151258631' },
+        ]
       }
     ]
   },
