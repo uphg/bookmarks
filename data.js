@@ -124,6 +124,7 @@ const Programming = [
         title: 'Ruby',
         items: [
           { text: 'Rails', link: 'https://rubyonrails.org/' },
+          { text: 'The Ruby Toolbox', link: 'https://www.ruby-toolbox.com/', icon: 'https://www.ruby-toolbox.com/favicon-32x32.png' }
         ]
       }
     ]
