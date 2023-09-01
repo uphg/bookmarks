@@ -79,6 +79,7 @@ const Programming = [
         title: 'Node.js 全栈框架',
         items: [
           { text: 'Prisma - Node.js and TypeScript ORM', link: 'https://www.prisma.io/', icon: 'https://www.prisma.io/images/favicon-32x32.png' },
+          { text: 'Drizzle ORM - TypeScript ORM', link: 'https://github.com/drizzle-team/drizzle-orm' },
           { text: 'tRPC', link: 'https://trpc.io/', icon: 'https://trpc.io/img/favicon.ico' },
           { text: 'Next.js', link: 'https://nextjs.org/' },
           { text: 'Nuxt.js', link: 'https://nuxt.com/', icon: 'https://nuxt.com/icon.png' }
