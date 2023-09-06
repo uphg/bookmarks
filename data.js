@@ -95,6 +95,20 @@ const Programming = [
         ]
       },
       {
+        title: '前端框架',
+        items: [
+          { text: 'solid.js', link: 'https://www.solidjs.com/' },
+        ]
+      },
+      {
+        title: 'Go 框架',
+        items: [
+          { text: 'gin', link: 'https://github.com/gin-gonic/gin' },
+          { text: 'Beego', link: 'https://github.com/beego/beego' },
+          { text: 'echo', link: 'https://github.com/labstack/echo' }
+        ]
+      },
+      {
         title: '打包工具',
         items: [
           { text: 'Vite', link: 'https://vitejs.dev/guide/' },
