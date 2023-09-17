@@ -9,6 +9,7 @@ const Programming = [
           { text: 'ChatGPT', link: 'https://chat.openai.com/', icon: 'https://chat.openai.com/favicon-32x32.png' },
           { text: 'Poe - ChatGPT', link: 'https://poe.com/ChatGPT', icon: 'https://psc2.cf2.poecdn.net/favicon.svg' },
           { text: 'Bing AI', link: 'https://www.bing.com/search?form=MY0291&OCID=MY0291&q=Bing+AI&showconv=1' },
+          { text: 'Monica', link: 'https://monica.im/' }
         ]
       },
       {
@@ -98,6 +99,7 @@ const Programming = [
         title: '前端框架',
         items: [
           { text: 'solid.js', link: 'https://www.solidjs.com/' },
+          { text: 'Nue JS', link: 'https://nuejs.org/docs/nuejs/' }
         ]
       },
       {
