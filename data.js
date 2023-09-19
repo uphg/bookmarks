@@ -119,6 +119,12 @@ const Programming = [
         ],
       },
       {
+        title: '命令行',
+        items: [
+          { text: 'JavaScript 包管理器', link: 'https://bun.sh/' },
+        ]
+      },
+      {
         title: 'CSS 模块',
         items: [
           { text: 'unocss', link: 'https://github.com/unocss/unocss' },
