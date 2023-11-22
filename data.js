@@ -87,6 +87,19 @@ const Programming = [
         ]
       },
       {
+        title: 'Node.js 工具库',
+        items: [
+          { text: 'Chalk - 调整终端字符串样式', link: 'https://github.com/chalk/chalk' },
+          { text: 'connect-history-api-fallback - 代理请求的中间件，用于 HTML5 History API ', link: 'https://github.com/bripkens/connect-history-api-fallback' },
+          { text: 'http-proxy-middleware - 配置代理中间件', link: 'https://github.com/chimurai/http-proxy-middleware' },
+          { text: 'npm-run-all2 - 简化 npm 运行多条命令', link: 'https://github.com/bcomnes/npm-run-all2' },
+          { text: 'serve-static - 静态服务中间件', link: 'https://github.com/expressjs/serve-static' },
+          { text: 'fs-extra - fs 模块替代品', link: 'https://github.com/jprichardson/node-fs-extra' },
+          { text: 'execa - child_process 改进版，快捷运行终端命令', link: 'https://github.com/sindresorhus/execa' },
+          { text: 'minimist - 命令参数解析器', link: 'https://github.com/minimistjs/minimist' },
+        ]
+      },
+      {
         title: '多端框架',
         items: [
           { text: 'Tauri', link: 'https://tauri.app/' },
