@@ -113,6 +113,36 @@ const Programming = [
         ]
       },
       {
+        title: '打包工具',
+        items: [
+          { text: 'Vite', link: 'https://vitejs.dev/guide/' },
+          { text: 'Webpack', link: 'https://webpack.js.org/' },
+          { text: 'Rollup', link: 'https://rollupjs.org/' },
+          { text: 'Bun - JavaScript 运行时和工具包', link: 'https://bun.sh/' },
+          { text: 'Verdaccio - 本地私有 NPM 注册中心', link: 'https://verdaccio.org/' }
+        ],
+      },
+      {
+        title: 'CSS 模块',
+        items: [
+          { text: 'unocss', link: 'https://github.com/unocss/unocss' },
+          { text: 'Tailwindcss', link: 'https://tailwindcss.com/' },
+          { text: 'Stylus', link: 'https://github.com/stylus/stylus' },
+          { text: 'Sass', link: 'https://sass-lang.com/' },
+          { text: 'Less', link: 'https://lesscss.org/' },
+          { text: 'CSS Modules', link: 'https://github.com/css-modules/css-modules' },
+          { text: 'styled components', link: 'https://github.com/styled-components/styled-components' }
+        ]
+      },
+      {
+        title: '客户端工具库',
+        items: [
+          { text: 'unhead - 设置网页 Head 头', link: 'https://github.com/unjs/unhead' },
+          { text: 'icones', link: 'https://icones.js.org/collection/all' },
+          { text: 'xicons', link: 'https://xicons.org/#/' }
+        ]
+      },
+      {
         title: '多端框架',
         items: [
           { text: 'Tauri', link: 'https://tauri.app/' },
@@ -127,39 +157,6 @@ const Programming = [
           { text: 'gin', link: 'https://github.com/gin-gonic/gin' },
           { text: 'Beego', link: 'https://github.com/beego/beego' },
           { text: 'echo', link: 'https://github.com/labstack/echo' }
-        ]
-      },
-      {
-        title: '打包工具',
-        items: [
-          { text: 'Vite', link: 'https://vitejs.dev/guide/' },
-          { text: 'webpack', link: 'https://webpack.js.org/' },
-          { text: 'Rollup', link: 'https://rollupjs.org/' },
-        ],
-      },
-      {
-        title: '命令行',
-        items: [
-          { text: 'JavaScript 包管理器', link: 'https://bun.sh/' },
-        ]
-      },
-      {
-        title: 'CSS 模块',
-        items: [
-          { text: 'unocss', link: 'https://github.com/unocss/unocss' },
-          { text: 'tailwindcss', link: 'https://tailwindcss.com/' },
-          { text: 'Stylus', link: 'https://github.com/stylus/stylus' },
-          { text: 'Sass', link: 'https://sass-lang.com/' },
-          { text: 'CSS Modules', link: 'https://github.com/css-modules/css-modules' },
-          { text: 'styled components', link: 'https://github.com/styled-components/styled-components' }
-        ]
-      },
-      {
-        title: '前端模块',
-        items: [
-          { text: 'unhead - 设置网页 Head 头', link: 'https://github.com/unjs/unhead' },
-          { text: 'icones', link: 'https://icones.js.org/collection/all' },
-          { text: 'xicons', link: 'https://xicons.org/#/' }
         ]
       },
       {
