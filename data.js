@@ -77,13 +77,26 @@ const Programming = [
     fileName: 'prog_full-stack',
     items: [
       {
+        title: '前端框架',
+        items: [
+          { text: 'Vue', link: 'https://vuejs.org/', icon: 'https://vuejs.org/logo.svg' },
+          { text: 'React', link: 'https://react.dev/', icon: 'https://react.dev/favicon.ico' },
+          { text: 'Solid.js', link: 'https://www.solidjs.com/' },
+          { text: 'Svelte.js', link: 'https://learn.svelte.dev/' },
+          { text: 'Nue JS', link: 'https://nuejs.org/docs/nuejs/' }
+        ]
+      },
+      {
         title: 'Node.js 全栈框架',
         items: [
           { text: 'Prisma - Node.js and TypeScript ORM', link: 'https://www.prisma.io/', icon: 'https://www.prisma.io/images/favicon-32x32.png' },
           { text: 'Drizzle ORM - TypeScript ORM', link: 'https://github.com/drizzle-team/drizzle-orm' },
           { text: 'tRPC', link: 'https://trpc.io/', icon: 'https://trpc.io/img/favicon.ico' },
           { text: 'Next.js', link: 'https://nextjs.org/' },
-          { text: 'Nuxt.js', link: 'https://nuxt.com/', icon: 'https://nuxt.com/icon.png' }
+          { text: 'Nuxt.js', link: 'https://nuxt.com/', icon: 'https://nuxt.com/icon.png' },
+          { text: 'Remix - React 全栈框架', link: 'https://github.com/remix-run/remix', icon: 'https://remix.run/favicon-32.png' },
+          { text: 'Astro - 支持 React、Svelte、Vue、Solid 等快速构建网站', link: 'https://github.com/withastro/astro', icon: 'https://astro.build/favicon.svg' },
+          { text: 'Gatsby - 基于 React 的全栈框架', link: 'https://github.com/gatsbyjs/gatsby' },
         ]
       },
       {
@@ -106,13 +119,6 @@ const Programming = [
           { text: 'Electron', link: 'https://electronjs.org/' },
           { text: 'React Native', link: 'https://reactnative.dev/' },
           { text: 'Flutter', link: 'https://flutter.dev/' }
-        ]
-      },
-      {
-        title: '前端框架',
-        items: [
-          { text: 'solid.js', link: 'https://www.solidjs.com/' },
-          { text: 'Nue JS', link: 'https://nuejs.org/docs/nuejs/' }
         ]
       },
       {
