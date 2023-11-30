@@ -170,7 +170,8 @@ const Programming = [
       {
         title: 'Python',
         items: [
-          { text: 'FastAPI', link: 'https://fastapi.tiangolo.com/zh/' }
+          { text: 'FastAPI', link: 'https://fastapi.tiangolo.com/zh/' },
+          { text: 'Django', link: 'https://www.djangoproject.com/' }
         ]
       },
       {
