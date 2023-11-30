@@ -165,6 +165,19 @@ const Programming = [
           { text: 'Rails', link: 'https://rubyonrails.org/' },
           { text: 'The Ruby Toolbox', link: 'https://www.ruby-toolbox.com/', icon: 'https://www.ruby-toolbox.com/favicon-32x32.png' }
         ]
+      },
+      {
+        title: 'Python',
+        items: [
+          { text: 'FastAPI', link: 'https://fastapi.tiangolo.com/zh/' }
+        ]
+      },
+      {
+        title: '规范/标准',
+        items: [
+          { text: 'JSON Schema', link: 'https://json-schema.org/' },
+          { text: 'OpenAPI', link: 'https://github.com/OAI/OpenAPI-Specification' }
+        ]
       }
     ]
   },
