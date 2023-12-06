@@ -14,11 +14,13 @@ const Programming = [
         ]
       },
       {
-        title: '文档/笔记',
+        title: '文档生成',
         items: [
           { text: 'Notion', link: 'https://www.notion.so/', icon: 'https://www.notion.so/images/favicon.ico' },
           { text: 'VitePress', link: 'https://vitepress.dev/', icon: 'https://vitepress.dev/vitepress-logo-mini.svg' },
           { text: 'Mermaid - 使用 Markdown 语法创建图表', link: 'https://mermaid.js.org/' },
+          { text: 'JSDoc', link: 'https://github.com/jsdoc/jsdoc' },
+          { text: 'jsdoc-to-markdown', link: 'https://github.com/jsdoc2md/jsdoc-to-markdown' }
         ]
       },
       {
@@ -84,12 +86,14 @@ const Programming = [
           { text: 'React', link: 'https://react.dev/', icon: 'https://react.dev/favicon.ico' },
           { text: 'Solid.js', link: 'https://www.solidjs.com/' },
           { text: 'Svelte.js', link: 'https://learn.svelte.dev/' },
-          { text: 'Nue JS', link: 'https://nuejs.org/docs/nuejs/' }
+          { text: 'Nue JS', link: 'https://nuejs.org/docs/nuejs/' },
+          { text: 'HTML.js - HTML 编程', link: 'https://html-lang.org/' }
         ]
       },
       {
         title: 'Node.js 全栈框架',
         items: [
+          { text: 'V8', link: 'https://v8.dev/' },
           { text: 'Prisma - Node.js and TypeScript ORM', link: 'https://www.prisma.io/', icon: 'https://www.prisma.io/images/favicon-32x32.png' },
           { text: 'Drizzle ORM - TypeScript ORM', link: 'https://github.com/drizzle-team/drizzle-orm' },
           { text: 'tRPC', link: 'https://trpc.io/', icon: 'https://trpc.io/img/favicon.ico' },
@@ -155,9 +159,10 @@ const Programming = [
       {
         title: 'Go 框架',
         items: [
+          { text: 'Go 标准库', link: 'https://pkg.go.dev/std' },
           { text: 'gin', link: 'https://github.com/gin-gonic/gin' },
           { text: 'Beego', link: 'https://github.com/beego/beego' },
-          { text: 'echo', link: 'https://github.com/labstack/echo' }
+          { text: 'echo', link: 'https://github.com/labstack/echo' },
         ]
       },
       {
@@ -297,6 +302,7 @@ const Programming = [
       {
         title: '前端',
         items: [
+          { text: '你不需要 Lodash/Underscore', link: 'https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore' },
           { text: '前端API数据RSA非对称加密方法总结', link: 'https://juejin.cn/post/7002058547395559438' },
           { text: '使用非对称加密(RSA) 实现前端加密后端解密', link: 'https://www.jianshu.com/p/aea81f54caa1' },
           { text: '基于VUE自定义指令实现按钮级权限控制', link: 'https://juejin.cn/post/6844903609151258631' },
