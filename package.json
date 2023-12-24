@@ -3,23 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node scripts/create-page.js & vitepress dev",
-    "build": "node scripts/create-page.js & vitepress build",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
     "preview": "vitepress preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@mdit-vue/shared": "^0.12.0",
-    "@types/node": "^20.4.9",
-    "fs-extra": "^11.1.1",
-    "vitepress": "^1.0.0-rc.4"
+    "vitepress": "1.0.0-rc.32"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "vue": "^3.3.13"
   }
 }
