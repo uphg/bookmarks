@@ -29,6 +29,8 @@
 ## 示例模板
 
 - [vitesse](https://github.com/antfu/vitesse) 快速创建基于 Vue 的 SSG 应用。
+- [Vue vben admin](https://github.com/vbenjs/vue-vben-admin) 使用 Vite + TS + Ant Design Vue 创建后台管理模板。
+- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
 ## 教程
 

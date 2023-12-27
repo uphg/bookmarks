@@ -16,6 +16,7 @@
 - [Bun](https://bun.sh/)
 - [Oxc](https://oxc-project.github.io/) - 用 Rust 编写的 JavaScript 工具集合。
 - [Rspack](https://www.rspack.dev/zh/) - 基于 Rust Web 编译工具（替代 Webpack）。
+- [Turbo](https://turbo.build/)
 
 ## 构建工具
 
