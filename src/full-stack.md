@@ -17,13 +17,15 @@
 - [Oxc](https://oxc-project.github.io/) - 用 Rust 编写的 JavaScript 工具集合。
 - [Rspack](https://www.rspack.dev/zh/) - 基于 Rust Web 编译工具（替代 Webpack）。
 - [Turbo](https://turbo.build/)
+- [unbuild](https://github.com/unjs/unbuild) - 基于 rollup 的打包器。
+- [rolldown](https://github.com/rolldown/rolldown) - 基于 Rollup 构建的现代捆绑器。
 
 ## 构建工具
 
 - [Astro](https://github.com/withastro/astro) - 支持 React、Svelte、Vue、Solid 等框架快速构建网站。
 - [create-vue](https://github.com/vuejs/create-vue)
 
-## 跨段框架
+## 跨端框架
 
 - [Tauri](https://tauri.app/)
 - [Electron.js](https://www.electronjs.org/)
@@ -31,6 +33,10 @@
 - [Flutter](https://flutter.dev/)
 
 
-## Node.js 私有代理
+## Node.js 私有库代理
 
 - [Verdaccio](https://verdaccio.org/)
+
+## Git
+
+- [Gitpod](https://github.com/gitpod-io/gitpod) - 一个开源 Kubernetes 应用程序，用于随时编写代码的云开发环境，与 GitLab、GitHub 和 Bitbucket 集成。
