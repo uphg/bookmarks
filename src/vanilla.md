@@ -20,9 +20,9 @@
 - [Cropper.js](https://github.com/fengyuanchen/cropperjs) - 图片编辑/裁剪插件。
 - [CodeMirror 5](https://github.com/codemirror/codemirror5) - 可扩展的代码编辑器。
 - [lint-staged](https://github.com/lint-staged/lint-staged) - 对当前暂存代码进行 lint 检查。
-- [rimraf](https://github.com/isaacs/rimraf) - Node.js 版的 `rm -rf`。
 - [print.js](https://github.com/crabbly/print.js) - 在浏览器中打印 pdf 文件。
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Excel 在线编辑器（`npm i xlsx`）。
+- [MiniSearch](https://github.com/lucaong/minisearch/) - 适用于浏览器和 Node 的 JavaScript 全文搜索引擎。
 
 ## 单元测试
 

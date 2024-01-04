@@ -3,6 +3,7 @@
 ## 工具库
 
 - [tRPC](https://trpc.io/)
+- [rimraf](https://github.com/isaacs/rimraf) - Node.js 版的 `rm -rf`。
 
 ## ORM
 
