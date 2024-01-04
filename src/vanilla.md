@@ -12,7 +12,7 @@
 
 - [showdownjs](https://github.com/showdownjs/showdown) - JavaScript Markdown to HTML
 
-## 库
+## 组件/库
 
 - [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - 监听元素尺寸变化。
 - [ExcelJS](https://github.com/exceljs/exceljs/tree/master) 读取并导出 Excel 数据到 XLSX 或 JSON。
@@ -23,3 +23,14 @@
 - [rimraf](https://github.com/isaacs/rimraf) - Node.js 版的 `rm -rf`。
 - [print.js](https://github.com/crabbly/print.js) - 在浏览器中打印 pdf 文件。
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Excel 在线编辑器（`npm i xlsx`）。
+
+## 单元测试
+
+- [Jest](https://github.com/jestjs/jest)
+- [Mocha.js](https://github.com/mochajs/mocha)
+- [Karma](https://github.com/karma-runner/karma)
+- [Vitest](https://vitest.dev/)
+
+## 集成测试
+
+- [Cypress](https://www.cypress.io/)
