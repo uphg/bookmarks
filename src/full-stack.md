@@ -40,3 +40,7 @@
 ## Git
 
 - [Gitpod](https://github.com/gitpod-io/gitpod) - 一个开源 Kubernetes 应用程序，用于随时编写代码的云开发环境，与 GitLab、GitHub 和 Bitbucket 集成。
+
+## IDE 插件/工具
+
+- [File Nesting Config](https://github.com/antfu/vscode-file-nesting-config) - VSCode 文件嵌套配置工具。
