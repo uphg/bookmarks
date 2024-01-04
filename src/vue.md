@@ -8,7 +8,7 @@
 
 - [Nuxt.js](https://nuxt.com/) 一个支持配置 SPA、SSG、SSR 的 Vue 框架。
 
-## UI 组件
+## 组件/库
 
 - [Naive UI](https://www.naiveui.com/zh-CN/os-theme)
 - [Ant Design Vue](https://github.com/vueComponent/ant-design-vue)
@@ -16,6 +16,8 @@
 - [Vuetify](https://vuetifyjs.com/en/)
 - [Quasar](https://quasar.dev/)
 - [Element Plus](https://element-plus.org/zh-CN/)（不稳定）。
+- [Vue Grid Layout](https://jbaysolutions.github.io/vue-grid-layout/) - 可拖拽的 Vue 网格布局。
+
 
 ## 工具
 
