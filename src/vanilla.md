@@ -28,9 +28,11 @@
 
 - [Jest](https://github.com/jestjs/jest)
 - [Mocha.js](https://github.com/mochajs/mocha)
-- [Karma](https://github.com/karma-runner/karma)
+- [Karma](https://github.com/karma-runner/karma) - 与 Jenkins、Travis 和 Semaphore 等工具集成。
 - [Vitest](https://vitest.dev/)
+
 
 ## 集成测试
 
-- [Cypress](https://www.cypress.io/)
+- [Cypress](https://www.cypress.io/) - 建立在 Mocha 框架之上的端到端 JavaScript 测试框架，
+- [Jasmine](https://github.com/jasmine/jasmine) -（BDD） 测试框架
