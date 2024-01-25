@@ -19,6 +19,7 @@
 - [Turbo](https://turbo.build/)
 - [unbuild](https://github.com/unjs/unbuild) - 基于 rollup 的打包器。
 - [rolldown](https://github.com/rolldown/rolldown) - 基于 Rollup 构建的现代捆绑器。
+- [ni](https://github.com/antfu/ni) - 自动使用对应的软件包管理器。
 
 ## 构建工具
 
