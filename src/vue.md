@@ -8,7 +8,7 @@
 
 - [Nuxt.js](https://nuxt.com/) 一个支持配置 SPA、SSG、SSR 的 Vue 框架。
 
-## UI 组件
+## 组件/库
 
 - [Naive UI](https://www.naiveui.com/zh-CN/os-theme)
 - [Ant Design Vue](https://github.com/vueComponent/ant-design-vue)
@@ -16,6 +16,8 @@
 - [Vuetify](https://vuetifyjs.com/en/)
 - [Quasar](https://quasar.dev/)
 - [Element Plus](https://element-plus.org/zh-CN/)（不稳定）。
+- [Vue Grid Layout](https://jbaysolutions.github.io/vue-grid-layout/) - 可拖拽的 Vue 网格布局。
+
 
 ## 工具
 
@@ -29,6 +31,8 @@
 ## 示例模板
 
 - [vitesse](https://github.com/antfu/vitesse) 快速创建基于 Vue 的 SSG 应用。
+- [Vue vben admin](https://github.com/vbenjs/vue-vben-admin) 使用 Vite + TS + Ant Design Vue 创建后台管理模板。
+- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
 ## 教程
 

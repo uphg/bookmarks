@@ -15,6 +15,9 @@
 
 - [Rails](https://rubyonrails.org/)
 - [The Ruby Toolbox](https://www.ruby-toolbox.com/)
+- [RubyGems.org](https://rubygems.org/)
+- [Ruby China](https://ruby-china.org/)
+<!-- - [新人千万不要在 Windows 上使用 Ruby on Rails](https://ruby-china.org/topics/1020) -->
 
 ## Python
 
