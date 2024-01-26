@@ -23,6 +23,7 @@
 - [print.js](https://github.com/crabbly/print.js) - 在浏览器中打印 pdf 文件。
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Excel 在线编辑器（`npm i xlsx`）。
 - [MiniSearch](https://github.com/lucaong/minisearch/) - 适用于浏览器和 Node 的 JavaScript 全文搜索引擎。
+- [bpmn-js](https://github.com/bpmn-io/bpmn-js) - BPMN 2.0 图编辑器。
 
 ## 单元测试
 
