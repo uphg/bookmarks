@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/bookmarks/',
   title: "My Personal Bookmarks",
   description: "A Personal Bookmarks",
   srcDir: './src',
