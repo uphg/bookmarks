@@ -22,6 +22,7 @@ export default defineConfig({
           { text: 'React', link: '/react' },
           { text: 'CSS', link: '/css' },
           { text: 'Vite', link: '/vite' },
+          { text: 'AI 模型', link: '/ai' },
           { text: '其他', link: '/other' },
         ]
       }
