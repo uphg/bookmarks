@@ -1,19 +1,8 @@
 # Vanilla
 
-## 富文本编辑器
-
-- [tinymce](https://github.com/tinymce/tinymce)
-
-## 组件
-
-- [Sortable](https://github.com/SortableJS/Sortable) - 可拖拽列表。
-
-## Markdown
-
-- [showdownjs](https://github.com/showdownjs/showdown) - JavaScript Markdown to HTML
-
 ## 组件/库
 
+- [Sortable](https://github.com/SortableJS/Sortable) - 可拖拽列表。
 - [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - 监听元素尺寸变化。
 - [ExcelJS](https://github.com/exceljs/exceljs/tree/master) 读取并导出 Excel 数据到 XLSX 或 JSON。
 - [Driver.js](https://github.com/kamranahmedse/driver.js) - 用户引导高亮提示。
@@ -24,6 +13,14 @@
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Excel 在线编辑器（`npm i xlsx`）。
 - [MiniSearch](https://github.com/lucaong/minisearch/) - 适用于浏览器和 Node 的 JavaScript 全文搜索引擎。
 - [bpmn-js](https://github.com/bpmn-io/bpmn-js) - BPMN 2.0 图编辑器。
+
+## 富文本编辑器
+
+- [tinymce](https://github.com/tinymce/tinymce)
+
+## Markdown
+
+- [showdownjs](https://github.com/showdownjs/showdown) - JavaScript Markdown to HTML
 
 ## 单元测试
 

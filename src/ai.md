@@ -9,6 +9,9 @@
 
 ## AI 模型
 
+- [Poe](https://poe.com/) - 支持多种 AI 模型。
+- [devv](https://devv.ai/zh) - 面向程序员的 AI 搜索引擎。
+- [Bard](https://bard.google.com/chat) - Google 开发的在线 AI 模型。
 - [Resume Matcher](https://github.com/srbhr/Resume-Matcher/) - 简历匹配器。
 - [电报机器人](https://t.me/MishkaAI_bot)
 - [Motionshop](https://modelscope.cn/studios/Damo_XR_Lab/motionshop/summary) - AI角色动画。
