@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  base: '/bookmarks/',
+  title: "My Personal Bookmarks",
+  description: "A Personal Bookmarks",
   srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -21,6 +22,7 @@ export default defineConfig({
           { text: 'React', link: '/react' },
           { text: 'CSS', link: '/css' },
           { text: 'Vite', link: '/vite' },
+          { text: 'AI 模型', link: '/ai' },
           { text: '其他', link: '/other' },
         ]
       }

@@ -12,13 +12,17 @@
 ## 打包/编译工具
 
 - [Vite](https://github.com/vitejs/vite)
-- [rollup.js](https://rollupjs.org/)
+- [Rollup.js](https://rollupjs.org/)
 - [Bun](https://bun.sh/)
 - [Oxc](https://oxc-project.github.io/) - 用 Rust 编写的 JavaScript 工具集合。
 - [Rspack](https://www.rspack.dev/zh/) - 基于 Rust Web 编译工具（替代 Webpack）。
 - [Turbo](https://turbo.build/)
 - [unbuild](https://github.com/unjs/unbuild) - 基于 rollup 的打包器。
 - [rolldown](https://github.com/rolldown/rolldown) - 基于 Rollup 构建的现代捆绑器。
+- [swc](https://github.com/swc-project/swc) - 基于 Rust 的 Web 编译器。
+
+## 包管理器
+
 - [ni](https://github.com/antfu/ni) - 自动使用对应的软件包管理器。
 
 ## 构建工具
