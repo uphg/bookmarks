@@ -13,6 +13,8 @@
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Excel 在线编辑器（`npm i xlsx`）。
 - [MiniSearch](https://github.com/lucaong/minisearch/) - 适用于浏览器和 Node 的 JavaScript 全文搜索引擎。
 - [bpmn-js](https://github.com/bpmn-io/bpmn-js) - BPMN 2.0 图编辑器。
+- [ADV.JS](https://github.com/YunYouJun/advjs) - ADV 文字冒险游戏引擎。
+- [html2canvas](https://github.com/niklasvh/html2canvas) - JavaScript 实现屏幕截图。
 
 ## 富文本编辑器
 
