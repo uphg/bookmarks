@@ -25,6 +25,7 @@
 ## Chrome 插件
 
 - [ChatGPT Moments](https://chrome.google.com/webstore/detail/chatgpt-moments/ojnljjhlkdaipljdkfcikjigfafenlnp) - 实时提取 ChatGPT 对话的问题部分，列为目录。
+- [Monica 搜索](https://chromewebstore.google.com/detail/pmbmfhhbllfiifceolpogjoagoiollkc) - AI搜索的新标签页（GPT4）。
 
 ## 博客/教程
 
