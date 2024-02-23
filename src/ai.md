@@ -17,6 +17,7 @@
 - [Motionshop](https://modelscope.cn/studios/Damo_XR_Lab/motionshop/summary) - AI角色动画。
 - [GPT4All](https://gpt4all.io/index.html) - 本地运行 AI。
 - [Kimi Chat](https://kimi.moonshot.cn/) - Moonshot AI 团队开发，实时更新知识库内容。
+- [Coze](https://www.coze.com/) - 字节跳动 AI Chatbot 开发平台。
 
 ## 第三方客户端
 
