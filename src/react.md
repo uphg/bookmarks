@@ -13,6 +13,10 @@
 
 ## 组件库
 
+- [shadcn/ui](https://ui.shadcn.com/)
+- [NextUI](https://nextui.org/)
+- [Mantine](https://v6.mantine.dev/)
+- [semi design](https://semi.design/zh-CN/)
 - [Material UI](https://github.com/mui/material-ui)
 - [Ant Design](https://github.com/ant-design/ant-design)
 - [Shadcn UI](https://github.com/shadcn-ui/ui)
