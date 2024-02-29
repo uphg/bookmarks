@@ -17,6 +17,7 @@
 - [Quasar](https://quasar.dev/)
 - [Element Plus](https://element-plus.org/zh-CN/)（不稳定）。
 - [Vue Grid Layout](https://jbaysolutions.github.io/vue-grid-layout/) - 可拖拽的 Vue 网格布局。
+- [Vue Formulate](https://vueformulate.com/guide/)
 
 
 ## 工具
