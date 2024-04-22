@@ -2,6 +2,7 @@
 
 ## 组件/库
 
+- [whyframe](https://whyframe.dev/) - 开发组件隔离（iframe 隔离样式）。
 - [Sortable](https://github.com/SortableJS/Sortable) - 可拖拽列表。
 - [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - 监听元素尺寸变化。
 - [ExcelJS](https://github.com/exceljs/exceljs/tree/master) 读取并导出 Excel 数据到 XLSX 或 JSON。
