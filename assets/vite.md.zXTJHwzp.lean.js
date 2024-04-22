@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,R as r}from"./chunks/framework.nTuspWkn.js";const v=JSON.parse('{"title":"Vite","description":"","frontmatter":{},"headers":[],"relativePath":"vite.md","filePath":"vite.md"}'),i={name:"vite.md"},o=r("",3),s=[o];function l(n,_,c,h,d,p){return t(),a("div",null,s)}const u=e(i,[["render",l]]);export{v as __pageData,u as default};

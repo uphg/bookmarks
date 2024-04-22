@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as r,R as t}from"./chunks/framework.nTuspWkn.js";const g=JSON.parse('{"title":"CSS","description":"","frontmatter":{},"headers":[],"relativePath":"css.md","filePath":"css.md"}'),s={name:"css.md"},l=t("",13),i=[l];function n(o,h,c,S,f,u){return a(),r("div",null,i)}const b=e(s,[["render",n]]);export{g as __pageData,b as default};

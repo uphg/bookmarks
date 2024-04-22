@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as a,R as t}from"./chunks/framework.nTuspWkn.js";const p=JSON.parse('{"title":"Vanilla","description":"","frontmatter":{},"headers":[],"relativePath":"vanilla.md","filePath":"vanilla.md"}'),l={name:"vanilla.md"},i=t("",11),n=[i];function o(h,s,c,f,b,m){return r(),a("div",null,n)}const u=e(l,[["render",o]]);export{p as __pageData,u as default};

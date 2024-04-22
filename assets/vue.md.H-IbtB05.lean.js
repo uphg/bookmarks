@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as a,R as t}from"./chunks/framework.nTuspWkn.js";const d=JSON.parse('{"title":"Vue.js","description":"","frontmatter":{},"headers":[],"relativePath":"vue.md","filePath":"vue.md"}'),l={name:"vue.md"},i=t("",13),n=[i];function u(o,h,s,f,c,m){return r(),a("div",null,n)}const g=e(l,[["render",u]]);export{d as __pageData,g as default};
