@@ -17,6 +17,7 @@
 - [ADV.JS](https://github.com/YunYouJun/advjs) - ADV 文字冒险游戏引擎。
 - [html2canvas](https://github.com/niklasvh/html2canvas) - JavaScript 实现屏幕截图。
 - [Tesseract.js](https://github.com/naptha/tesseract.js) - 解析图片中的文字。
+- [Typed.js](https://github.com/mattboldt/typed.js) - 光标输入动画。
 
 ## 富文本编辑器
 
