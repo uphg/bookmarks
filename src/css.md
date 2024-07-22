@@ -13,6 +13,7 @@
 
 - [UnoCSS](https://unocss.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [tailwind-merge](https://github.com/dcastil/tailwind-merge) - 用于在 JS 中高效合并 Tailwind CSS 类而不会发生样式冲突。
 - [Windi CSS](https://windicss.org/)（停止更新，进入维护状态）
 
 ## CSS in JS
