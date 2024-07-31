@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as r,R as t}from"./chunks/framework.nTuspWkn.js";const b=JSON.parse('{"title":"博客收集","description":"","frontmatter":{},"headers":[],"relativePath":"blog.md","filePath":"blog.md"}'),l={name:"blog.md"},o=t("",7),n=[o];function i(h,s,c,_,u,d){return a(),r("div",null,n)}const m=e(l,[["render",i]]);export{b as __pageData,m as default};

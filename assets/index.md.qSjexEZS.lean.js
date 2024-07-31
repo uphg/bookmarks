@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,R as l}from"./chunks/framework.nTuspWkn.js";const u=JSON.parse('{"title":"编程导航","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),i={name:"index.md"},r=l("",2),o=[r];function s(_,h,n,c,d,f){return a(),t("div",null,o)}const p=e(i,[["render",s]]);export{u as __pageData,p as default};

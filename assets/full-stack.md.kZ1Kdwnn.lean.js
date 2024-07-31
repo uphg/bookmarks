@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as a,R as t}from"./chunks/framework.nTuspWkn.js";const g=JSON.parse('{"title":"全栈开发","description":"","frontmatter":{},"headers":[],"relativePath":"full-stack.md","filePath":"full-stack.md"}'),l={name:"full-stack.md"},i=t("",19),o=[i];function n(h,s,u,c,f,b){return r(),a("div",null,o)}const _=e(l,[["render",n]]);export{g as __pageData,_ as default};
