@@ -15,12 +15,15 @@
 - [Rollup.js](https://rollupjs.org/)
 - [Bun](https://bun.sh/)
 - [Oxc](https://oxc-project.github.io/) - 用 Rust 编写的 JavaScript 工具集合。
-- [Biome](https://github.com/biomejs/biome) - 用于 Web 项目的工具链， Biome 提供格式化程序和 linter。
 - [Rspack](https://www.rspack.dev/zh/) - 基于 Rust Web 编译工具（替代 Webpack）。
 - [Turbo](https://turbo.build/)
 - [unbuild](https://github.com/unjs/unbuild) - 基于 rollup 的打包器。
 - [rolldown](https://github.com/rolldown/rolldown) - 基于 Rollup 构建的现代捆绑器。
 - [swc](https://github.com/swc-project/swc) - 基于 Rust 的 Web 编译器。
+
+## 开发工具
+
+- [Biome](https://github.com/biomejs/biome) - 用于 Web 项目的工具链， Biome 提供格式化程序和 linter。
 
 ## 包管理器
 
