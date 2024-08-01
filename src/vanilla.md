@@ -4,19 +4,23 @@
 
 - [whyframe](https://whyframe.dev/) - 开发组件隔离（iframe 隔离样式）。
 - [Sortable](https://github.com/SortableJS/Sortable) - 可拖拽列表。
-- [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - 监听元素尺寸变化。
-- [ExcelJS](https://github.com/exceljs/exceljs/tree/master) 读取并导出 Excel 数据到 XLSX 或 JSON。
 - [Driver.js](https://github.com/kamranahmedse/driver.js) - 用户引导高亮提示。
 - [Cropper.js](https://github.com/fengyuanchen/cropperjs) - 图片编辑/裁剪插件。
 - [CodeMirror 5](https://github.com/codemirror/codemirror5) - 可扩展的代码编辑器。
-- [lint-staged](https://github.com/lint-staged/lint-staged) - 对当前暂存代码进行 lint 检查。
 - [print.js](https://github.com/crabbly/print.js) - 在浏览器中打印 pdf 文件。
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Excel 在线编辑器（`npm i xlsx`）。
-- [MiniSearch](https://github.com/lucaong/minisearch/) - 适用于浏览器和 Node 的 JavaScript 全文搜索引擎。
 - [ADV.JS](https://github.com/YunYouJun/advjs) - ADV 文字冒险游戏引擎。
 - [html2canvas](https://github.com/niklasvh/html2canvas) - JavaScript 实现屏幕截图。
-- [Tesseract.js](https://github.com/naptha/tesseract.js) - 解析图片中的文字。
 - [Typed.js](https://github.com/mattboldt/typed.js) - 光标输入动画。
+
+## 工具库
+
+- [qs](https://github.com/ljharb/qs) - 具有一定安全性的查询字符串解析和字符串化库。
+- [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - 监听元素尺寸变化。
+- [ExcelJS](https://github.com/exceljs/exceljs/tree/master) 读取并导出 Excel 数据到 XLSX 或 JSON。
+- [lint-staged](https://github.com/lint-staged/lint-staged) - 对当前暂存代码进行 lint 检查。
+- [MiniSearch](https://github.com/lucaong/minisearch/) - 适用于浏览器和 Node 的 JavaScript 全文搜索引擎。
+- [Tesseract.js](https://github.com/naptha/tesseract.js) - 解析图片中的文字。
 
 ## 流程图编辑器
 

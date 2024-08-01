@@ -17,6 +17,7 @@ export default defineConfig({
         text: '编程导航',
         items: [
           { text: '全栈开发', link: '/full-stack' },
+          { text: 'Vanilla', link: '/vanilla' },
           { text: 'Node.js', link: '/nodejs' },
           { text: 'Vue', link: '/vue' },
           { text: 'React', link: '/react' },
