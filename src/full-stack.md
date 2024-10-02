@@ -24,6 +24,7 @@
 ## 开发工具
 
 - [Biome](https://github.com/biomejs/biome) - 用于 Web 项目的工具链， Biome 提供格式化程序和 linter。
+- [ESLint Stylistic](https://eslint.style/) - ESLint 衍生的格式化工具，支持 TypeScript、JSX、Vue、React、Markdown、HTML 等语法。
 
 ## 包管理器
 
@@ -40,7 +41,6 @@
 - [Electron.js](https://www.electronjs.org/)
 - [React Native](https://reactnative.dev/)
 - [Flutter](https://flutter.dev/)
-
 
 ## Node.js 私有库代理
 

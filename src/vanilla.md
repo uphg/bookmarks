@@ -13,8 +13,11 @@
 - [html2canvas](https://github.com/niklasvh/html2canvas) - JavaScript 实现屏幕截图。
 - [Typed.js](https://github.com/mattboldt/typed.js) - 光标输入动画。
 
-## 工具库
+## 工具/方法库
 
+- [lodash](https://github.com/lodash/lodash) - JavaScript 实用工具库。
+- [marked](https://github.com/markedjs/marked) - Markdown 解析器。
+- [dayjs](https://github.com/iamkun/dayjs) - 轻量级日期处理库。
 - [qs](https://github.com/ljharb/qs) - 具有一定安全性的查询字符串解析和字符串化库。
 - [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - 监听元素尺寸变化。
 - [ExcelJS](https://github.com/exceljs/exceljs/tree/master) 读取并导出 Excel 数据到 XLSX 或 JSON。
