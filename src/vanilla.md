@@ -12,6 +12,7 @@
 - [ADV.JS](https://github.com/YunYouJun/advjs) - ADV 文字冒险游戏引擎。
 - [html2canvas](https://github.com/niklasvh/html2canvas) - JavaScript 实现屏幕截图。
 - [Typed.js](https://github.com/mattboldt/typed.js) - 光标输入动画。
+- [Rough Notation](https://github.com/rough-stuff/rough-notation) - 文本标注工具。
 
 ## 工具/方法库
 
@@ -31,13 +32,14 @@
 - [bpmn-js](https://github.com/bpmn-io/bpmn-js) - BPMN 2.0 图编辑器。
 - [vue-flow](https://github.com/bcakmakoglu/vue-flow) - 基于 Vue3。
 
-## 富文本编辑器
-
-- [tinymce](https://github.com/tinymce/tinymce)
-
 ## Markdown
 
 - [showdownjs](https://github.com/showdownjs/showdown) - JavaScript Markdown to HTML
+
+## 文档编辑器
+
+- [tinymce](https://github.com/tinymce/tinymce)
+- [canvas-editor](https://github.com/Hufe921/canvas-editor?tab=readme-ov-file)
 
 ## 单元测试
 
