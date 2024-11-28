@@ -25,6 +25,7 @@
 
 - [Biome](https://github.com/biomejs/biome) - 用于 Web 项目的工具链， Biome 提供格式化程序和 linter。
 - [ESLint Stylistic](https://eslint.style/) - ESLint 衍生的格式化工具，支持 TypeScript、JSX、Vue、React、Markdown、HTML 等语法。
+- [Anchordotdev CLI](https://github.com/anchordotdev/cli) - 一个为本地开发环境 localhost 提供 https 证书的工具。。
 
 ## 包管理器
 
@@ -41,6 +42,10 @@
 - [Electron.js](https://www.electronjs.org/)
 - [React Native](https://reactnative.dev/)
 - [Flutter](https://flutter.dev/)
+
+# 数据库
+
+- [PG Back Web](https://github.com/eduardolat/pgbackweb) - 一个带有 Web 界面的 PostgreSQL 数据库备份工具。
 
 ## Node.js 私有库代理
 

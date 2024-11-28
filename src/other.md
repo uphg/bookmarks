@@ -1,8 +1,9 @@
 # 其他
 
-## TypeScript 教程
+## 教程
 
-- [TypeHero](https://typehero.dev/)
+- [TypeHero](https://typehero.dev/) - TypeScript 教程。
+- [The Copenhagen Book](https://github.com/pilcrowonpaper/copenhagen) - 一个 Web 应用相关的用户认证知识教程。
 
 ## Go
 

@@ -25,7 +25,8 @@
 - [lint-staged](https://github.com/lint-staged/lint-staged) - 对当前暂存代码进行 lint 检查。
 - [MiniSearch](https://github.com/lucaong/minisearch/) - 适用于浏览器和 Node 的 JavaScript 全文搜索引擎。
 - [Tesseract.js](https://github.com/naptha/tesseract.js) - 解析图片中的文字。
-- [Mime](https://github.com/broofa/mime) - MIME 类型信息的 API（文件类型信息）。
+- [Mime](https://github.com/broofa/mime) - MIME 类型信息的 API（文件类型信息解析）。
+- [Miao-lang](https://github.com/miao-lang/miao-lang/tree/master) - 一个可以将人类语言翻译为喵语言的程序。
 
 ## 流程图编辑器
 
