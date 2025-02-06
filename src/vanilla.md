@@ -13,6 +13,7 @@
 - [html2canvas](https://github.com/niklasvh/html2canvas) - JavaScript 实现屏幕截图。
 - [Typed.js](https://github.com/mattboldt/typed.js) - 光标输入动画。
 - [Rough Notation](https://github.com/rough-stuff/rough-notation) - 文本标注工具。
+- [Tippy.js](https://github.com/atomiks/tippyjs) - 适用于 Web 的完整工具提示、弹出窗口、下拉列表和菜单解决方案。
 
 ## 工具/方法库
 
